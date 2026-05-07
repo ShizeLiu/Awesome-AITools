@@ -67,7 +67,7 @@
 | 豆包 | 字节跳动旗下的AI聊天软件。最佳用于：界面直观、综合能力好。 [豆包chrome插件](https://chromewebstore.google.com/detail/dbjibobgilijgolhjdcbdebjhejelffo) <br>体验测试视频：<br>[B站视频：豆包 vs GPT，语音对决！豆包的魅力女友让人难以招架～](https://www.bilibili.com/video/BV1EgymYmEhB/)<br>[B站视频：百模大战-抖音子公司推出AI聊天机器人豆包](https://www.bilibili.com/video/BV1b84y1o7E4/)|[URL](https://www.doubao.com/)|免费|
 | 通义千问 |阿里的大语言模型。 <br> qwen.ai中可体验最新的模型和不同的模型，最强的 Qwen3.5-Max-Thinking-Preview，有深度研究的选项|[URL](https://www.qianwen.com/)|免费|
 | 腾讯元宝 |腾讯元宝提供了DeepSeek R1和腾讯自家的混元模型可使用；腾讯混元 AI Studio 提供了各种 AI 工具，包括 AI 对话助手、文生图、文/图生视频等各种模型和工具|1.[腾讯元宝智能助手](https://hunyuan.tencent.com/bot) <br> 2. [混元 AI Studio](https://hunyuan.tencent.com/)|免费|
-| DeepSeek | DeepSeek的AI助手。最佳用于：编程、推理能力强、性价比高。 [API](https://platform.deepseek.com/api_keys)|[URL](https://chat.deepseek.com/)|免费/付费|
+| DeepSeek | DeepSeek的AI助手，包含最新的 V4 系列。提供 100 万超长上下文、原生多模态支持，以及极具性价比的旗舰级推理能力（V4-Pro）。 [API](https://platform.deepseek.com/api_keys)|[URL](https://chat.deepseek.com/)|免费/付费|
 | 智谱AI | 最新的GLM-5模型 | 1. [URL](https://chat.z.ai/)<br> 2. [API开发者网站](https://open.bigmodel.cn/)| 免费/付费|
 | Minimax| 最新的 Minimax-m2.5模型|[URL](https://www.minimax.io/)|免费/付费|
 | ChatGPT | openAI的chatgpt，最新模型 GPT-5.5。最佳用于：通用目的、编程、创意写作，适合大多数用户。记忆功能是目前最好的，它会记住你说过的事，下次对话直接接上，聊起来最像真人。 <br>应用示例：<br> [B站视频：豆包 vs GPT，语音对决！豆包的魅力女友让人难以招架～](https://www.bilibili.com/video/BV1EgymYmEhB/)<br>[B站视频：这9款工具帮你榨干ChatGPT，解锁隐藏玩法](https://www.bilibili.com/video/BV1qs4y1D7ED)<br> [B站视频：格斗之王！AI写出来的AI竟然这么强！](https://www.bilibili.com/video/BV1DT411H7ph) <br> [可汗学院创始人Khan最新TED演讲：GPT-4作为AI学习私教，可能带来教育史上最大变革](https://www.bilibili.com/video/BV1Xa4y137rR)|[URL](https://chatgpt.com)  | 免费/付费|
@@ -89,7 +89,8 @@
 | MiniMax Agent|Minimax的 Agent 助手|[URL](https://agent.minimaxi.com/)|免费/付费|
 |agentscope|面向Agent的编程：构建大型语言模型应用程序。阿里开源|[Github](https://github.com/agentscope-ai/agentscope)![GitHub Repo stars](https://img.shields.io/github/stars/agentscope-ai/agentscope?style=social)|免费|
 |Auto-GPT|开源项目，使用gpt自主地实现你设定的任何目标。演示示例：[爆火的自主人工智能AutoGPT，程序员表示开始真正有点担忧会失业了！](https://www.bilibili.com/video/BV1Ph4y1W7Yj)|[GitHub](https://github.com/Significant-Gravitas/Auto-GPT) ![GitHub Repo stars](https://img.shields.io/github/stars/Significant-Gravitas/Auto-GPT?style=social)|免费，需要OpenAI API key|
-|microsoft/autogen|AutoGen 是一个开源编程框架，用于构建人工智能Agent，并促进多个Agent之间的合作，以解决任务。 |[Github](https://github.com/microsoft/autogen) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/autogen?style=social)|免费|
+|microsoft/autogen|AutoGen 是一个开源编程框架， 用于构建人工智能Agent，并促进多个Agent之间的合作，以解决任务。 |[Github](https://github.com/microsoft/autogen) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/autogen?style=social)|免费|
+| Dexter | 自主财务研究智能体，旨在通过思考、计划和迭代学习进行深度分析。专注于财务领域。[入门介绍](docs/dexter/README-CN.md) | [Github](https://github.com/virattt/dexter) ![GitHub Repo stars](https://img.shields.io/github/stars/virattt/dexter?style=social) | 免费 |
 |msitarzewski/agency-agents|开源AI代理工具包，包含70+细分领域的专业代理角色，覆盖工程、设计、营销、销售等领域。提供开箱即用的代理人设、工作流模板，支持Claude Code、Cursor、Aider等多AI开发工具。|[Github](https://github.com/msitarzewski/agency-agents) ![GitHub Repo stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)|免费|
 |deer-flow|字节跳动开源的高性能 AI Agent 框架。它提供了一种灵活高效的方式来编排复杂的 Agent 工作流，内置支持多种大语言模型。|[Github](https://github.com/bytedance/deer-flow) ![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/deer-flow?style=social)|免费|
 |weixin-agent-sdk|微信 AI Agent 桥接框架，通过简单的 Agent 接口将任意 AI 后端接入微信。支持 ACP 协议接入 Claude Code、Codex 等兼容 Agent，也可自定义 Agent 实现。|[Github](https://github.com/wong2/weixin-agent-sdk) ![GitHub Repo stars](https://img.shields.io/github/stars/wong2/weixin-agent-sdk?style=social)|免费|
@@ -101,6 +102,7 @@
 | Hermes Agent | NousResearch 开发的开源 AI Agent 框架，基于 Hermes 系列模型构建，在工具调用和推理能力上进行了精细微调，用于构建自主 AI 智能体。 | [Github](https://github.com/NousResearch/hermes-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social) | 免费 |
 | Screenpipe | 开源的 24/7 本地屏幕和麦克风录制工具，具备 OCR、音频转录和语义搜索功能。通过 MCP 为 AI 智能体提供您所看、所说、所听内容的长期上下文。支持 Ollama 或任何本地大语言模型，完全离线运行。跨平台（macOS / Windows / Linux）。 | [Github](https://github.com/screenpipe/screenpipe) ![GitHub Repo stars](https://img.shields.io/github/stars/screenpipe/screenpipe?style=social) | 免费 |
 | CC Switch | 跨平台桌面应用，用于一站式管理 Claude Code, Codex, Gemini CLI, OpenCode 和 OpenClaw。提供可视化界面管理 API 供应商、MCP 服务器和技能，支持双向同步。[入门介绍](docs/cc-switch/README-CN.md) | [Github](https://github.com/farion1231/cc-switch) ![GitHub Repo stars](https://img.shields.io/github/stars/farion1231/cc-switch?style=social) | 免费 |
+| Multica | 开源托管代理平台，将 AI 编码代理（Claude Code, Copilot 等）作为“一等公民”队友集成到开发团队中。支持任务分配、进度跟踪和技能复用。[入门介绍](docs/multica/README-CN.md) | [Github](https://github.com/multica-ai/multica) ![GitHub Repo stars](https://img.shields.io/github/stars/multica-ai/multica?style=social) | 免费/付费 |
 
 ### Agent Skills
 | 名称 | 说明 | 链接 | 费用 |
@@ -127,6 +129,7 @@
 ### 开源大语言模型
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
+| DeepSeek-V4 |DeepSeek 第四代旗舰模型。包含 V4-Pro (1.6T MoE) 和 V4-Flash (284B MoE)，支持 1M 上下文、原生多模态，采用混合注意力机制（Hybrid Attention）实现极高推理效率。|[Hugging Face](https://huggingface.co/collections/deepseek-ai/deepseek-v4)|免费|
 | DeepSeek-R1 |DeepSeek 的第一代推理模型 DeepSeek-R1-Zero 和 DeepSeek-R1。DeepSeek-R1-Zero 是一种通过大规模强化学习（RL）训练的模型，没有监督微调（SFT）作为初步步骤，在推理性能表现卓越。|[Github](https://github.com/deepseek-ai/DeepSeek-R1) ![GitHub Repo stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-R1?style=social)|免费|
 | DeepSeek-V3 |DeepSeek推出的大语言模型，MoE 模型，671B 参数，激活 37B，在 14.8T token 上进行了预训练。|[Github](https://github.com/deepseek-ai/DeepSeek-V3) ![GitHub Repo stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V3?style=social)|免费|
 | Gemma 4 |Gemma 4 是 Google 最新发布的开源大语言模型系列，基于 Gemini 架构构建，提供更强的性能、更长的上下文窗口和更好的多语言支持。|[Github](https://github.com/google/gemma.cpp) ![GitHub Repo stars](https://img.shields.io/github/stars/google/gemma.cpp?style=social)|免费|
@@ -199,6 +202,7 @@
 |TradingAgents|一个多智能体大语言模型金融交易框架，模拟真实世界交易公司的运作。它使用专门的 AI 智能体（基本面、情绪、技术和新闻分析师）通过结构化辩论协作评估市场状况并辅助交易决策。|[Github](https://github.com/TauricResearch/TradingAgents) ![GitHub Repo stars](https://img.shields.io/github/stars/TauricResearch/TradingAgents?style=social)|免费|
 |VNPy|基于 Python 的全功能开源量化交易框架，支持策略回测、多交易所实盘交易，并集成 AI/大语言模型能力用于金融市场分析和策略开发，是国内量化交易者广泛使用的系统。|[Github](https://github.com/vnpy/vnpy) ![GitHub Repo stars](https://img.shields.io/github/stars/vnpy/vnpy?style=social)|免费|
 |TimesFM|Google Research 开源的预训练时间序列基础模型，专门用于时间序列预测。支持长上下文（16k）和最长 1k 步的长区间预测，广泛应用于金融和量化投资预测场景。|[Github](https://github.com/google-research/timesfm) ![GitHub Repo stars](https://img.shields.io/github/stars/google-research/timesfm?style=social)|免费|
+| Dexter | 自主财务研究智能体，旨在通过思考、计划和迭代学习进行深度分析。专注于财务领域。[入门介绍](docs/dexter/README-CN.md) | [Github](https://github.com/virattt/dexter) ![GitHub Repo stars](https://img.shields.io/github/stars/virattt/dexter?style=social) | 免费 |
 
 ### AI图像创作
 | 名称 | 说明 | 链接 | 费用 |
