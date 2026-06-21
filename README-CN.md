@@ -195,7 +195,7 @@
 |langchain|是一个强大的框架，旨在帮助开发人员使用语言模型构建端到端的应用程序。它提供了一套工具、组件和接口，可简化创建由大型语言模型 (LLM) 和聊天模型提供支持的应用程序的过程。LangChain 可以轻松管理与语言模型的交互，将多个组件链接在一起，并集成额外的资源，例如 API 和数据库。|[Github](https://github.com/langchain-ai/langchain) ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social)|免费|
 |ChatGPT-Next-Web|一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型|[Github](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) ![GitHub Repo stars](https://img.shields.io/github/stars/ChatGPTNextWeb/ChatGPT-Next-Web?style=social)|免费|
 |anything-llm|开源的文档聊天机器人解决方案|[Github](https://github.com/Mintplex-Labs/anything-llm) ![GitHub Repo stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social)|免费|
-| screenshot-to-code | 插入截图并将其转换为简洁的 HTML/Tailwind/JS 代码，使用了GPT-4 Vision来生成代码，使用DALL-E 3生成图片 | [GitHub](https://github.com/abi/screenshot-to-code) ![GitHub Repo stars](https://img.shields.io/github/stars/abi/screenshot-to-code?style=social)| 免费，需要有GPT-4 Vision的授权|
+| screenshot-to-code | 将截图、设计稿、Figma 设计和屏幕录制转换为干净的功能代码。支持多种 AI 模型（Gemini 3 Flash、GPT-5.5、Claude Opus 4.8）和输出框架（HTML+Tailwind、React、Vue、Bootstrap 等）。还支持 URL 克隆和视频转代码功能。 | [GitHub](https://github.com/abi/screenshot-to-code) ![GitHub Repo stars](https://img.shields.io/github/stars/abi/screenshot-to-code?style=social)| 免费，需要 API 密钥（推荐 OpenAI/Anthropic/Gemini）|
 | Chatbox | 使用ChatGPT API（OpenAI API）的桌面应用程序, 将所有的聊天信息和提示信息存储在本地，从而减少了数据丢失的风险。比网页版使用更稳定些| [GitHub](https://github.com/Bin-Huang/chatbox) ![GitHub Repo stars](https://img.shields.io/github/stars/Bin-Huang/chatbox?style=social)| 免费，需要使用OpenAPI的[apikey](https://platform.openai.com/account/api-keys)|
 |together.ai chat|与 HuggingChat 类似，可选择不同的开源模型，支持 DeepSeek R1、LLaMA、QWen 和 Flux Schnell。每天 60 条免费信息。|[URL](https://chat.together.ai/)|免费/付费|
 | gpt-crawler | 可以爬取指定网站中的内容，并生成json文件，可以直接上传到GPTs的知识库使用 | [Github](https://github.com/BuilderIO/gpt-crawler)![GitHub Repo stars](https://img.shields.io/github/stars/BuilderIO/gpt-crawler?style=social)| 免费|
@@ -217,7 +217,6 @@
 | 通义灵码|阿里云开发的代码编写助手，可根据当前代码文件及跨文件的上下文，为你生成行级/函数级代码、单元测试、代码注释等，支持 Java、Python、Go、JavaScript、TypeScript、C/C++、C# 等主流语言，同时兼容 Visual Studio Code、JetBrains IDEs 等主流编程工具|[URL](https://tongyi.aliyun.com/lingma/)|免费|
 | CodeGeeX | 智谱AI旗下的代码生成大模型，支持200多种主流编程语言的生成及翻译。开源模型：<br>[CodeGeeX2](https://github.com/THUDM/CodeGeeX2/) ![GitHub Repo stars](https://img.shields.io/github/stars/THUDM/CodeGeeX2?style=social) <br>[CodeGeex4](https://github.com/THUDM/CodeGeeX4) ![GitHub Repo stars](https://img.shields.io/github/stars/THUDM/CodeGeeX4?style=social)<br> [【项目原作解读】清华大学郑勤锴：CodeGeeX大规模多语言代码生成模型](https://www.bilibili.com/video/BV1wT41127Tq/) | [URL](https://codegeex.cn/) |免费|
 | Amazon CodeWhisperer | 亚马逊开放的AI编程辅助工具，根据你的注释和现有代码，实时生成从片段到完整功能的代码建议。在各种IDE的插件中可以安装,支持15种语言, 包括 Python, Java, and JavaScript等。只需要按照流程注册一个aws builder账号即可。| [URL](https://aws.amazon.com/cn/codewhisperer)| 免费|
-| Fitten Code | Fitten Code是由非十大模型驱动的AI编程助手，可以自动生成代码，提升开发效率，调试Bug。还可以对话聊天，解决您编程碰到的问题。免费且支持80多种语言：Python、C++、Javascript、Typescript、Java等。并提供丰富的IDE支持，包括Visual Studio Code、JetBrains系列IDE等。<br>“技术胖”B站视频：[清华初创对决微软Github，哪家AI编程助手更强](https://www.bilibili.com/video/BV1MH4y1s7sU/)| [URL](https://code.fittentech.com/) | 免费 |
 |腾讯云AI代码助手|腾讯云 AI 代码助手主要提供两类功能：AI 助手对话功能和代码补全功能。|[URL](https://console.cloud.tencent.com/acc)|免费|
 | Kagan | 用于自主开发工作流的AI驱动看板TUI工具。集成Claude Code和OpenCode，支持基于工单的AI编码、git worktree隔离和MCP服务器。 | [GitHub](https://github.com/aorumbayev/kagan) ![GitHub Repo stars](https://img.shields.io/github/stars/aorumbayev/kagan?style=social) | 免费 |
 | Happy Coder | Codex和Claude Code的移动端和Web客户端，支持实时语音、加密和全功能 | [URL](https://happy.engineering) [GitHub](https://github.com/slopus/happy) ![GitHub Repo stars](https://img.shields.io/github/stars/slopus/happy?style=social) | 免费 |
@@ -233,6 +232,9 @@
 |VNPy|基于 Python 的全功能开源量化交易框架，支持策略回测、多交易所实盘交易，并集成 AI/大语言模型能力用于金融市场分析和策略开发，是国内量化交易者广泛使用的系统。|[Github](https://github.com/vnpy/vnpy) ![GitHub Repo stars](https://img.shields.io/github/stars/vnpy/vnpy?style=social)|免费|
 |TimesFM|Google Research 开源的预训练时间序列基础模型，专门用于时间序列预测。支持长上下文（16k）和最长 1k 步的长区间预测，广泛应用于金融和量化投资预测场景。|[Github](https://github.com/google-research/timesfm) ![GitHub Repo stars](https://img.shields.io/github/stars/google-research/timesfm?style=social)|免费|
 | Dexter | 自主财务研究智能体，旨在通过思考、计划和迭代学习进行深度分析。专注于财务领域。[入门介绍](docs/dexter/README-CN.md) | [Github](https://github.com/virattt/dexter) ![GitHub Repo stars](https://img.shields.io/github/stars/virattt/dexter?style=social) | 免费 |
+| yfinance | 开源的 Python 库，用于获取 Yahoo Finance 数据。无需 API 密钥即可获取股票、ETF 和加密货币的历史价格数据。是 AI 量化交易和金融分析的重要数据源。 | [Github](https://github.com/ranaroussi/yfinance) ![GitHub Repo stars](https://img.shields.io/github/stars/ranaroussi/yfinance?style=social) | 免费 |
+| OpenBB | 开源投资研究平台，整合多个金融数据源（Yahoo Finance、Alpha Vantage 等）提供统一 API。内置 MCP 服务器支持 AI 智能体集成，让 Claude 等大语言模型可直接查询金融数据。 | [Github](https://github.com/OpenBB-finance/OpenBB) ![GitHub Repo stars](https://img.shields.io/github/stars/OpenBB-finance/OpenBB?style=social) | 免费 |
+| AkShare | 开源的 Python 金融数据库，提供股票、期货、期权等金融数据接口。主要覆盖中国市场，是 AI 量化交易和金融分析的重要数据源。 | [Github](https://github.com/akfamily/akshare) ![GitHub Repo stars](https://img.shields.io/github/stars/akfamily/akshare?style=social) | 免费 |
 
 ### AI图像创作
 | 名称 | 说明 | 链接 | 费用 |
@@ -314,6 +316,7 @@
 ### 写作
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
+| Notion AI | AI辅助笔记软件，支持AI写作、总结、头脑风暴等功能 | [URL](https://www.notion.so)| 提供一定的免费AI试用额度，AI功能每月$10 |
 | Obsidian | 强大的本地优先 markdown 笔记工具，拥有丰富的 AI 插件生态 - 通过社区插件支持 AI 总结、RAG、智能笔记处理等功能 | [URL](https://obsidian.md/) | 免费/付费|
 | Deep L Write | 英文、德文写作工具，可以及時修正写作錯誤、改写句子。 | [URL](https://www.deepl.com/write) |  免費版本使用有文字字数限制/有付费升级版 |
 | grammarly | 纠正语法、拼写、标点符号等错误的写作助手| [URL](https://app.grammarly.com/) | 免费/有付费升级版|
@@ -367,6 +370,8 @@
 ### 变声软件
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
+|ElevenLabs|业界领先的AI语音合成和变声工具。提供高度逼真的文本转语音、语音克隆（只需几分钟音频）和变声功能。支持多种语言和情感语音。|[URL](https://elevenlabs.io/)|免费/付费|
+|RVC (Retrieval-Based Voice Conversion)|开源语音转换模型，可以高质量地将任何声音转换为另一种声音。常用于唱歌声音转换和语音克隆。|[GitHub](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) ![GitHub Repo stars](https://img.shields.io/github/stars/RVC-Project/Retrieval-based-Voice-Conversion-WebUI?style=social)|免费|
 |大饼 AI 变声|提供实时的 AI 变声功能|[URL](https://dubbing.tech/)|免费/付费|
 
 ### 声音克隆
