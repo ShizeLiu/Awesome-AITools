@@ -17,6 +17,7 @@
 | 可核验产出 | diff + 工具调用记录 | diff + 沙盒输出 | **Artifacts**：计划、截图、浏览器录屏 |
 | 多智能体 | CLI 内支持子智能体与 workflow | 通过 Web/App 并行运行 | Manager 视图跨工作区分发智能体 |
 | 安全设计 | 危险操作需确认 | 沙盒优先 | 先出计划、人工确认后再执行；运行可审计 |
+| 权限模式 | `--permission-mode`（default / plan / auto） | `--full-auto`、`--ask-for-approval`、`--sandbox`（只读 / 工作区可写 / 完全访问） | Read Only / Auto / Full Access；执行前先确认计划 Artifact |
 | 扩展性 | MCP、技能、钩子、插件 | MCP、脚本 | VS Code 扩展、内置浏览器/终端 |
 
 ## 详细对比
@@ -54,6 +55,26 @@
 - 智能体先生成**计划 Artifact**，人工批准后再执行
 - 浏览器录屏与截图让事后审计成为可能
 - 在 IDE 中运行，访问范围限定在工作区
+
+### 权限模式
+
+三款工具都支持调节自动化程度，从谨慎的逐步确认到完全放手执行。
+
+**Claude Code**
+- 单一 `--permission-mode` 参数：`default`（敏感操作需确认）、`plan`（只探索并提出方案，不做改动）、`auto`（自动批准常规操作，仅对真正敏感的操作暂停）
+- 之上还可叠加细粒度的工具白名单和 hooks 进行精确控制
+- 建议：不熟悉的代码先用 `default`/`plan`，信任后再切换到 `auto`
+
+**Codex CLI**
+- 两个维度：审批策略 `--ask-for-approval`（`untrusted` / `on-failure` / `on-request` / `never`）和沙箱 `--sandbox`（`read-only` / `workspace-write` / `danger-full-access`）
+- `--full-auto` 是低摩擦快捷方式（执行常规工作，仅在需要时打断）
+- `--dangerously-bypass-approvals-and-sandbox` 移除所有防护；`-s read-only` 是类似 plan 的安全探索模式
+- 在交互界面中封装为 **Read Only / Auto / Full Access**，可通过 `/approvals` 切换
+
+**Antigravity**
+- 模式对应 **Read Only / Auto / Full Access**
+- 先计划后执行：智能体生成可审阅的计划 Artifact，批准后才执行
+- 访问范围限定在工作区，并有浏览器录屏用于事后审计
 
 ### 扩展与集成
 

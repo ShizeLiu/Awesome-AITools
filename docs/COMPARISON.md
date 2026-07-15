@@ -17,6 +17,7 @@ This document compares three mainstream AI coding tools: Claude Code, Codex, and
 | Verifiable Output | Diff + tool transcripts | Diff + sandbox output | **Artifacts**: plans, screenshots, browser recordings |
 | Multi-Agent | Subagents and workflows in CLI | Parallel runs via web/app | Manager view fans out agents across workspaces |
 | Safety Design | Confirmation for dangerous operations | Sandbox-first | Plan-then-act with reviewable Artifacts |
+| Permission Modes | `--permission-mode` (default / plan / auto) | `--full-auto`, `--ask-for-approval`, `--sandbox` (read-only / workspace-write / full-access) | Read Only / Auto / Full Access; approve plan Artifact before execution |
 | Extensibility | MCP, skills, hooks, plugins | MCP, scripts | VS Code extensions, integrated browser/terminal |
 
 ## Detailed Comparison
@@ -54,6 +55,26 @@ This document compares three mainstream AI coding tools: Claude Code, Codex, and
 - Agents draft a **plan Artifact** before acting; you approve before execution
 - Browser recordings and screenshots make agent behavior auditable after the fact
 - Runs inside the IDE with workspace-scoped access
+
+### Permission Modes
+
+All three tools let you dial autonomy up or down, from cautious step-by-step approval to fully hands-off execution.
+
+**Claude Code**
+- Single `--permission-mode` flag: `default` (confirm sensitive actions), `plan` (explore and propose without changes), `auto` (auto-approve routine actions, pause only for genuinely sensitive ones)
+- Fine-grained tool allowlists and hooks layer on top for precise control
+- Recommendation: start with `default`/`plan` on unfamiliar code, switch to `auto` once trusted
+
+**Codex CLI**
+- Two dimensions: approval policy `--ask-for-approval` (`untrusted` / `on-failure` / `on-request` / `never`) and sandbox `--sandbox` (`read-only` / `workspace-write` / `danger-full-access`)
+- `--full-auto` is the low-friction shortcut (runs routine work, interrupts only when needed)
+- `--dangerously-bypass-approvals-and-sandbox` removes all guardrails; `-s read-only` is a plan-like safe-exploration mode
+- Surfaced in the interactive UI as **Read Only / Auto / Full Access**, switchable via `/approvals`
+
+**Antigravity**
+- Modes map to **Read Only / Auto / Full Access**
+- Plan-then-act: the agent produces a reviewable plan Artifact you approve before execution
+- Access is workspace-scoped, with browser recordings for after-the-fact auditing
 
 ### Extension and Integration
 
