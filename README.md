@@ -43,10 +43,10 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 ## All Categories
 - [All Categories](#all-categories)
   - [ChatGPT and other AI chatbot](#chatgpt-and-other-ai-chatbot)
+  - [Open Source LLMs](#open-source-llms)
   - [AI Agent](#ai-agent)
   - [Agent Skills](#agent-skills)
   - [Office Collaboration CLI/MCP](#office-collaboration-climcp)
-  - [Open Source LLMs](#open-source-llms)
   - [LLM Leaderboard](#llm-leaderboard)
   - [GPT LLMs Applications](#gpt-llms-applications)
   - [AI Coding](#ai-coding)
@@ -81,11 +81,25 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | ChatGPT | OpenAI's AI chatbot, including the GPT-5.6 family (Sol/Terra/Luna). Best for general purpose, coding, and creative writing. Great for most users. Memory function is currently the best - it remembers what you've said and picks up right where you left off in the next conversation, making it feel most like talking to a real person. | [URL](https://chatgpt.com) | Free/Paid |
 | Gemini| Google's AI chatbot, including Gemini 3.5 Flash. Excels in multimodality, high-fidelity image generation/analysis, and deep integration with the Google ecosystem. Best for: Image processing and web information integration, Deep Research feature performs exceptionally well, seamlessly integrates with Google Drive. [ai.google.dev](https://ai.google.dev/)|[URL](https://gemini.google.com/) <br> |Free/Paid|
 | DeepSeek | DeepSeek's AI chatbot, including DeepSeek-V4. Features 1M context window, native multimodality, and state-of-the-art reasoning (V4-Pro) with extremely high performance-to-cost ratio. [API](https://platform.deepseek.com/api_keys)|[URL](https://chat.deepseek.com/)|Free/Paid|
+| Kimi Chat | Moonshot AI's latest Kimi K3 model (plus K2.7-Code and K2.6). Features a 2.8 trillion parameter MoE architecture, native vision understanding, and a 1M-token context window. Specialized for software engineering, knowledge work, and deep reasoning. |1. [Kimi](https://kimi.moonshot.cn/)<br>2. [Moonshot AI](https://platform.moonshot.cn/)|Free|
 | GLM | Z.ai / Zhipu AI's latest GLM-5.2 model. Features 1M context window and dual thinking-effort system (High/Max). Optimized for agentic coding and repository-scale analysis. | 1. [URL](https://chat.z.ai/)<br> 2. [API](https://open.bigmodel.cn/)| Free/Paid|
-| Kimi Chat | Moonshot AI's latest Kimi K2.7-Code and K2.6 models. Features a 1 trillion parameter MoE architecture. Specialized for long-horizon software engineering and agent swarms. |1. [Kimi](https://kimi.moonshot.cn/)<br>2. [Moonshot AI](https://platform.moonshot.cn/)|Free|
 | Grok | xAI's AI chatbot, including Grok 4.5. Best for real-time internet access and Elon Musk's AI vision. Real-time data and news is its moat - can directly access posts on X as information sources, a differentiation that's hard to replicate. [x.com/grok](https://x.com/i/grok) |[URL](https://grok.com/)|Free/Paid|
 | qwen | Alibaba's AI chatbot. Includes Qwen 3.7-Plus/Max in Qwen Chat, supporting 1M context window, native multimodality, and long-horizon agentic reasoning. |[URL](https://chat.qwen.ai/)|Free|
 | Dola | Bytedance's AI chatbot. Intuitive interface and good general capabilities.|[URL](https://www.dola.com/)|Free|
+
+### Open Source LLMs
+| Name | Description | Links | Fees |
+| --- | --- | --- | --- |
+| Kimi K3 | Moonshot AI's 2.8T-parameter flagship open-weight model. Native visual understanding, 1M-token context window, and Kimi Delta Attention (KDA). The first open-source model in the 3-trillion-parameter class; full weights to be released by July 27, 2026. | [Technical Blog](https://www.kimi.com/blog/kimi-k3) | Free |
+| DeepSeek-V4 |DeepSeek's 4th generation flagship model. V4-Pro (1.6T MoE) and V4-Flash (284B MoE) featuring 1M context, native multimodality, and Hybrid Attention for extreme efficiency.|[Hugging Face](https://huggingface.co/collections/deepseek-ai/deepseek-v4)|Free|
+| DeepSeek-R1 |DeepSeek's first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated remarkable performance on reasoning.|[Github](https://github.com/deepseek-ai/DeepSeek-R1) ![GitHub Repo stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-R1?style=social)|Free|
+| DeepSeek-V3 |A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.|[Github](https://github.com/deepseek-ai/DeepSeek-V3) ![GitHub Repo stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V3?style=social)|Free|
+| Qwen3 |Qwen3 is the large language model series developed by the Qwen team at Alibaba Cloud. Qwen3-2507 includes Instruct and Thinking variants with 235B-A22B, 30B-A3B, and 4B sizes, 256K long context, and 1M-token input support in some scenarios.|[Github](https://github.com/QwenLM/Qwen3) ![GitHub Repo stars](https://img.shields.io/github/stars/QwenLM/Qwen3?style=social)|Free|
+| Gemma 4 |Gemma 4 is Google's latest open source large language model series, built on the Gemini architecture, offering improved performance, longer context windows, and better multilingual support.|[Github](https://github.com/google/gemma.cpp) ![GitHub Repo stars](https://img.shields.io/github/stars/google/gemma.cpp?style=social)|Free|
+| Llama 3 | Llama3 is a large language model developed by Meta AI. It is the successor to Meta's Llama2 language model. <br>Online test address:<br>[huggingface.co/Meta-Llama-3-70B-Instruct](https://huggingface.co/chat/models/meta-llama/Meta-Llama-3-70B-Instruct) |[GitHub](https://github.com/meta-llama/llama3) ![GitHub Repo stars](https://img.shields.io/github/stars/meta-llama/llama3?style=social)| Free |
+| Mixtral |Mixtral 8x7B, a high-quality sparse mixture of experts model (SMoE) with open weights. Mixtral outperforms Llama 2 70B on most benchmarks with 6x faster inference. It matches or outperforms GPT3.5 on most standard benchmarks. <br>paper：https://arxiv.org/pdf/2401.04088.pdf <br>news：https://mistral.ai/news/mixtral-of-experts/ |[mistral-inference](https://github.com/mistralai/mistral-inference) ![GitHub Repo stars](https://img.shields.io/github/stars/mistralai/mistral-inference?style=social)<br>[mistral-finetune](https://github.com/mistralai/mistral-finetune) ![GitHub Repo stars](https://img.shields.io/github/stars/mistralai/mistral-finetune?style=social)|Free|
+|grok-1|A large language model open sourced by xAI|[Github](https://github.com/xai-org/grok-1) ![GitHub Repo stars](https://img.shields.io/github/stars/xai-org/grok-1?style=social)|Free|
+|Phi-3| Phi-3, a family of open AI models developed by Microsoft. Phi-3 models are the most capable and cost-effective small language models (SLMs) available, outperforming models of the same size and next size up across a variety of language, reasoning, coding, and math benchmarks.|[Github](https://github.com/microsoft/Phi-3CookBook) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/Phi-3CookBook?style=social)|Free|
 
 ### AI Agent
 | Name | Description | Links | Fees |
@@ -149,19 +163,6 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | Lark CLI | Feishu (Lark) official command-line interface tool, helping developers quickly develop and manage Feishu applications | [Github](https://github.com/larksuite/cli) ![GitHub Repo stars](https://img.shields.io/github/stars/larksuite/cli?style=social) | Free |
 | DingTalk CLI | DingTalk official command-line interface tool for quickly developing and managing DingTalk applications | [Github](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli) ![GitHub Repo stars](https://img.shields.io/github/stars/DingTalk-Real-AI/dingtalk-workspace-cli?style=social) | Free |
 | WeWork CLI | WeCom (WeChat Work) open-source command-line interface tool, helping developers quickly develop and manage WeCom applications | [Github](https://github.com/WecomTeam/wecom-cli) ![GitHub Repo stars](https://img.shields.io/github/stars/WecomTeam/wecom-cli?style=social) | Free |
-
-### Open Source LLMs
-| Name | Description | Links | Fees |
-| --- | --- | --- | --- |
-| DeepSeek-V4 |DeepSeek's 4th generation flagship model. V4-Pro (1.6T MoE) and V4-Flash (284B MoE) featuring 1M context, native multimodality, and Hybrid Attention for extreme efficiency.|[Hugging Face](https://huggingface.co/collections/deepseek-ai/deepseek-v4)|Free|
-| DeepSeek-R1 |DeepSeek's first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated remarkable performance on reasoning.|[Github](https://github.com/deepseek-ai/DeepSeek-R1) ![GitHub Repo stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-R1?style=social)|Free|
-| DeepSeek-V3 |A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.|[Github](https://github.com/deepseek-ai/DeepSeek-V3) ![GitHub Repo stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V3?style=social)|Free|
-| Qwen3 |Qwen3 is the large language model series developed by the Qwen team at Alibaba Cloud. Qwen3-2507 includes Instruct and Thinking variants with 235B-A22B, 30B-A3B, and 4B sizes, 256K long context, and 1M-token input support in some scenarios.|[Github](https://github.com/QwenLM/Qwen3) ![GitHub Repo stars](https://img.shields.io/github/stars/QwenLM/Qwen3?style=social)|Free|
-| Gemma 4 |Gemma 4 is Google's latest open source large language model series, built on the Gemini architecture, offering improved performance, longer context windows, and better multilingual support.|[Github](https://github.com/google/gemma.cpp) ![GitHub Repo stars](https://img.shields.io/github/stars/google/gemma.cpp?style=social)|Free|
-| Llama 3 | Llama3 is a large language model developed by Meta AI. It is the successor to Meta's Llama2 language model. <br>Online test address:<br>[huggingface.co/Meta-Llama-3-70B-Instruct](https://huggingface.co/chat/models/meta-llama/Meta-Llama-3-70B-Instruct) |[GitHub](https://github.com/meta-llama/llama3) ![GitHub Repo stars](https://img.shields.io/github/stars/meta-llama/llama3?style=social)| Free |
-| Mixtral |Mixtral 8x7B, a high-quality sparse mixture of experts model (SMoE) with open weights. Mixtral outperforms Llama 2 70B on most benchmarks with 6x faster inference. It matches or outperforms GPT3.5 on most standard benchmarks. <br>paper：https://arxiv.org/pdf/2401.04088.pdf <br>news：https://mistral.ai/news/mixtral-of-experts/ |[mistral-inference](https://github.com/mistralai/mistral-inference) ![GitHub Repo stars](https://img.shields.io/github/stars/mistralai/mistral-inference?style=social)<br>[mistral-finetune](https://github.com/mistralai/mistral-finetune) ![GitHub Repo stars](https://img.shields.io/github/stars/mistralai/mistral-finetune?style=social)|Free|
-|grok-1|A large language model open sourced by xAI|[Github](https://github.com/xai-org/grok-1) ![GitHub Repo stars](https://img.shields.io/github/stars/xai-org/grok-1?style=social)|Free|
-|Phi-3| Phi-3, a family of open AI models developed by Microsoft. Phi-3 models are the most capable and cost-effective small language models (SLMs) available, outperforming models of the same size and next size up across a variety of language, reasoning, coding, and math benchmarks.|[Github](https://github.com/microsoft/Phi-3CookBook) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/Phi-3CookBook?style=social)|Free|
 
 ### LLM Leaderboard
 | Name | Description | Links | Fees |
