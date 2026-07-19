@@ -3,6 +3,10 @@
 All notable changes to the Awesome AI Tools list will be documented in this file.
 
 ## July 2026
+- Renamed the News Information section to "AI News & Information" (both EN/CN)
+- Added SemiAnalysis to the top of the News Information section with its X link (both EN/CN)
+- Moved Kimi Code and Grok Build after Codex in AI Agent section (both EN/CN)
+- Added Grok Build (xai-org/grok-build) to AI Agent section and related documentation (both EN/CN)
 - Added Kimi K3 to Open Source LLMs section (both EN/CN)
 - Updated Kimi Chat entry to feature Kimi K3 as the latest model and moved it before GLM in AI Chatbots section (both EN/CN)
 - Moved Open Source LLMs section before AI Agent section in both READMEs (both EN/CN)

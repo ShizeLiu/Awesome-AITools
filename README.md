@@ -50,6 +50,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
   - [LLM Leaderboard](#llm-leaderboard)
   - [GPT LLMs Applications](#gpt-llms-applications)
   - [AI Coding](#ai-coding)
+  - [AI News & Information](#ai-news--information)
   - [AI Finance & Quant Investment](#ai-finance--quant-investment)
   - [AI Image Creation](#ai-image-creation)
   - [Video Creation](#video-creation)
@@ -57,7 +58,6 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
   - [GPU Programming](#gpu-programming)
   - [LLM Prompts](#llm-prompts)
   - [LLM training platform](#llm-training-platform)
-  - [News Information](#news-information)
   - [Writing](#writing)
   - [Translation](#translation)
   - [Speech Recognition](#speech-recognition)
@@ -107,6 +107,8 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 |OpenClaw|Open-source self-hosted AI agent that runs locally and autonomously executes tasks. Connects to WhatsApp, Telegram, Slack, Discord and other messaging platforms, with browser control, system access, and persistent memory. Developed by Peter Steinberger, one of the fastest-growing open-source projects. [Intro](docs/openclaw/README.md)|[Github](https://github.com/openclaw/openclaw) ![GitHub Repo stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)|Free|
 | Claude Code | Anthropic's AI coding assistant with strong long‑context understanding, complex code refactoring and agent capabilities. Available in the terminal CLI, VS Code/Cursor/JetBrains IDE plugins, standalone desktop app, and web app; tasks can also continue from the Claude iOS app or browser. [Intro](docs/claude-code/README.md)|[Github](https://github.com/anthropics/claude-code)<br> ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-code?style=social)|Free|
 |Codex|OpenAI's lightweight coding agent. Supports the terminal CLI, VS Code/Cursor/Windsurf IDE extensions, Codex Web, and a Codex App/desktop app experience; it can understand and modify code directly. [Intro](docs/codex/README.md)|[Github](https://github.com/openai/codex) ![GitHub Repo stars](https://img.shields.io/github/stars/openai/codex?style=social)|Free|
+| Kimi Code | Moonshot AI's AI coding agent CLI that runs in your terminal. Reads and edits code, runs shell commands, searches files, fetches web pages, and plans next steps based on feedback. Supports video input, AI-native MCP configuration, subagents, lifecycle hooks, and ACP editor integration (Zed, JetBrains). [Intro](docs/kimi-code/README.md) | [Github](https://github.com/MoonshotAI/kimi-code) ![GitHub Repo stars](https://img.shields.io/github/stars/MoonshotAI/kimi-code?style=social) | Free |
+| Grok build | xAI's terminal-based AI coding agent, open-sourced and written in Rust. Runs as a full-screen, mouse-interactive TUI that understands your codebase, edits files, runs shell commands, searches the web, and manages long-running tasks. Supports interactive, headless (scripting/CI), and ACP editor-embedded modes, with MCP servers, skills, plugins, hooks, and sandboxing. [Intro](docs/grok-build/README.md) | [Github](https://github.com/xai-org/grok-build) ![GitHub Repo stars](https://img.shields.io/github/stars/xai-org/grok-build?style=social) | Free |
 |Antigravity|Google's agent-first AI coding platform built around Gemini 3, the successor to Gemini CLI. Delivered as a heavily modified VS Code-based IDE (Editor and Manager views, built-in browser/terminal) and also supports terminal interaction via the `gemini` CLI. Features autonomous agents with multi-step edit/run/verify capabilities and verifiable Artifacts (plans, screenshots, recordings). Also supports Claude 5 (Fable), Claude Sonnet 4.6, Claude Opus 4.6, and GPT-OSS-120B. [Intro](docs/antigravity/README.md)|[URL](https://antigravity.google/)|Free during preview|
 | autoresearch | An autonomous AI agent for machine learning research by Karpathy. It can formulate hypotheses, modify training code, run experiments, and evaluate results autonomously to find performance improvements. | [Github](https://github.com/karpathy/autoresearch) ![GitHub Repo stars](https://img.shields.io/github/stars/karpathy/autoresearch?style=social) | Free |
 | ml-intern | An open-source, autonomous AI agent by Hugging Face designed to function as a specialized Machine Learning Engineer. It handles the end-to-end ML lifecycle, including researching papers, writing code, running experiments, and shipping models to the Hugging Face Hub. [Intro](docs/ml-intern/README.md) | [Github](https://github.com/huggingface/ml-intern) ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/ml-intern?style=social) | Free |
@@ -136,7 +138,6 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | Cua | Open-source infrastructure for Computer-Use Agents (CUA). Provides sandboxes, drivers, and SDKs for macOS, Windows, Linux, and Android, enabling AI to control full desktops just like a human. [Intro](docs/cua/README.md) | [Github](https://github.com/trycua/cua) ![GitHub Repo stars](https://img.shields.io/github/stars/trycua/cua?style=social) | Free |
 | AGENTS.md | An open standard for codebase documentation designed specifically for AI coding agents. Provides structured context, instructions, and constraints to help agents work more effectively and safely. [Intro](docs/agents/README.md) | [Github](https://github.com/agentsmd/agents.md) ![GitHub Repo stars](https://img.shields.io/github/stars/agentsmd/agents.md?style=social) | Free |
 | Spec Kit | GitHub's open-source toolkit for Spec-Driven Development (SDD). Provides the `specify` CLI and slash commands (/speckit.specify, /speckit.plan, /speckit.implement, etc.) that integrate with 30+ AI coding agents to turn specifications into executable implementation plans. | [Github](https://github.com/github/spec-kit) ![GitHub Repo stars](https://img.shields.io/github/stars/github/spec-kit?style=social) | Free |
-| Kimi Code | Moonshot AI's AI coding agent CLI that runs in your terminal. Reads and edits code, runs shell commands, searches files, fetches web pages, and plans next steps based on feedback. Supports video input, AI-native MCP configuration, subagents, lifecycle hooks, and ACP editor integration (Zed, JetBrains). [Intro](docs/kimi-code/README.md) | [Github](https://github.com/MoonshotAI/kimi-code) ![GitHub Repo stars](https://img.shields.io/github/stars/MoonshotAI/kimi-code?style=social) | Free |
 
 ### Agent Skills
 | Name | Description | Links | Fees |
@@ -231,6 +232,14 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | Cate | Open source desktop IDE on an infinite zoomable canvas. You arrange Monaco editors, xterm.js terminals, embedded browsers, and Claude Code agent panels in freeform zoomable space instead of tabs. Panels can float, dock, or detach into separate windows, and layout persists per project. Built with Electron, runs on macOS, Windows, and Linux. | [URL](https://cate.cero-ai.com) [Github](https://github.com/0-AI-UG/cate) ![GitHub Repo stars](https://img.shields.io/github/stars/0-AI-UG/cate?style=social) | Free |
 | CLIProxyAPI | A proxy server that exposes AI CLI tools and subscriptions (Claude Code, Codex, Gemini, Grok, etc.) through OpenAI/Gemini/Claude/Codex-compatible API interfaces. Supports OAuth login, streaming/WebSocket responses, function calling, multimodal input, and multi-account load balancing across providers. | [Github](https://github.com/router-for-me/CLIProxyAPI) ![GitHub Repo stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=social) | Free |
 
+### AI News & Information
+| Name | Description | Links | Fees |
+| --- | --- | --- | --- |
+| SemiAnalysis | In-depth research and analysis on semiconductors, AI hardware, GPUs, data centers, and the compute supply chain, founded by Dylan Patel. Publishes long-form industry reports with deep coverage of the AI industry (some free, most subscription). | [X](https://x.com/SemiAnalysis_), [Official Site](https://semianalysis.com) | Free/Paid |
+| World Monitor | AI-powered real-time global intelligence dashboard with 435+ curated feeds, geopolitical monitoring, infrastructure tracking, AI summaries, 21 languages support, local AI runtime and cross-platform native desktop apps | [Github](https://github.com/koala73/worldmonitor) ![GitHub Repo stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=social), [Official Site](https://worldmonitor.app) | Free |
+| Prismix | AI hub aggregating real-time status of 75+ AI services (OpenAI, Anthropic, Groq, Cursor, etc.), curated news from 55+ AI sources with a personalized feed, and 500+ MCP server directory with bundles. Email/webhook alerts on outages. | [Official Site](https://prismix.dev) | Free/Paid |
+| AI Weekly | Independent AI news newsletter, 3x/week since 2015, read by 44,000+ professionals. The few AI stories that matter, solo-edited. Proprietary AI Weekly Index, quarterly State-of-AI recap, Who's-Who-of-AI graph (2,335 figures), and an 11-year archive. | [Official Site](https://aiweekly.co) | Free |
+
 ### AI Finance & Quant Investment
 | Name | Description | Links | Fees |
 | --- | --- | --- | --- |
@@ -303,13 +312,6 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | Name | Description | Links | Fees |
 | --- | --- | --- | --- |
 | lm-sys/FastChat | An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. | [Github](https://github.com/lm-sys/FastChat) ![GitHub Repo stars](https://img.shields.io/github/stars/lm-sys/FastChat?style=social)| Free |
-
-### News Information
-| Name | Description | Links | Fees |
-| --- | --- | --- | --- |
-| World Monitor | AI-powered real-time global intelligence dashboard with 435+ curated feeds, geopolitical monitoring, infrastructure tracking, AI summaries, 21 languages support, local AI runtime and cross-platform native desktop apps | [Github](https://github.com/koala73/worldmonitor) ![GitHub Repo stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=social), [Official Site](https://worldmonitor.app) | Free |
-| Prismix | AI hub aggregating real-time status of 75+ AI services (OpenAI, Anthropic, Groq, Cursor, etc.), curated news from 55+ AI sources with a personalized feed, and 500+ MCP server directory with bundles. Email/webhook alerts on outages. | [Official Site](https://prismix.dev) | Free/Paid |
-| AI Weekly | Independent AI news newsletter, 3x/week since 2015, read by 44,000+ professionals. The few AI stories that matter, solo-edited. Proprietary AI Weekly Index, quarterly State-of-AI recap, Who's-Who-of-AI graph (2,335 figures), and an 11-year archive. | [Official Site](https://aiweekly.co) | Free |
 
 ### Writing
 | Name | Description | Links | Fees |
