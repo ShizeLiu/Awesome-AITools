@@ -185,6 +185,7 @@
 |LMSYS Chatbot Arena Leaderboard|LMSYS Chatbot Arena 是一个用于大语言模型评估的众包开放平台。收集了超过 1,000,000 次人类成对比较，用 Bradley-Terry 模型对 LLM 进行排名，并以 Elo 标度显示模型评级。<br>B站视频：[量子位/1v1单挑90万轮之后，最强大模型是……](https://www.bilibili.com/video/BV1Qs421w7df/) |[URL](https://lmarena.ai/leaderboard) |免费|
 |Artificial Analysis|Artificial Analysis 是一个提供 AI 模型和服务商比较及基准测试的资源平台，帮助用户在选择 AI 模型和服务提供商时做出明智决策。平台提供多种流行 AI 模型的比较数据，包括 OpenAI 的 GPT-4、Meta 的 Llama 3 和 Anthropic 的 Claude 系列，涵盖了响应速度、延迟和成本等性能指标。|[URL](https://artificialanalysis.ai/)|免费|
 |LiveCodeBench|LiveCodeBench 是一个全面且无污染的 LLM 代码评估基准，它会持续收集新的问题。LiveCodeBench 尤其关注更广泛的代码相关功能，例如自我修复、代码执行和测试输出预测，而不仅仅是代码生成。 |[URL](https://livecodebench.github.io/leaderboard.html)|免费|
+|StructEval|StructEval 是发表于 TMLR 2025 的评测基准与公开排行榜，用于评估 LLM 的结构化输出生成和转换，包含 2,035 个样例和 18 种文本及可渲染格式，并采用格式专用的结构与视觉检查。|[排行榜](https://tiger-ai-lab.github.io/StructEval/) [论文](https://openreview.net/forum?id=buDwV7LUA7) [Github](https://github.com/TIGER-AI-Lab/StructEval)|免费|
 |BenchGecko|AI模型基准测试排行榜，跨供应商定价对比，AI经济仪表盘。追踪数千个AI模型、128个评估基准、数百个供应商。提供免费API和开放数据集。|[URL](https://benchgecko.ai/zh/)|免费|
 
 ### GPT-LLMs应用
@@ -444,6 +445,7 @@
 | --- | --- | --- | --- |
 |微信|微信对话框中的图片有提取文字的选项，识别效果很好，使用了几次基本没有什么识别错误。<br> [2021-03月份 微信AI对OCR功能的介绍：三年磨一剑——微信OCR图片文字提取](https://mp.weixin.qq.com/s/8Odh9TKKoxIYDpr1h-5Y5Q)||免费|
 |Umi-OCR|开源、免费的离线OCR软件。支持截屏/粘贴/批量导入图片，段落排版/排除水印，扫描/生成二维码。内置多国语言库。|[Github](https://github.com/hiroi-sora/Umi-OCR) ![GitHub Repo stars](https://img.shields.io/github/stars/hiroi-sora/Umi-OCR?style=social)|免费|
+|light-ocr|面向 Node.js 和 C++ 的快速离线 OCR，内置 PP-OCRv6 模型和跨平台运行时。|[Github](https://github.com/arcships/light-ocr) ![GitHub Repo stars](https://img.shields.io/github/stars/arcships/light-ocr?style=social)|免费|
 |allenai/olmocr|一个用于训练语言模型以处理实际PDF文档的工具包。Demo网址: https://olmocr.allenai.org/|[Github](https://github.com/allenai/olmocr) ![GitHub Repo stars](https://img.shields.io/github/stars/allenai/olmocr?style=social)|免费|
 
 ### 视频内容总结
