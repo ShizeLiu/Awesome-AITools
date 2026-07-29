@@ -197,26 +197,23 @@
 | Learn about |谷歌开发的人工智能学习助手。它是一个会话式的学习伙伴，能适应您独特的好奇心和学习目标，帮助您掌握新主题并加深理解。|[URL](https://learning.google.com/experiments/learn-about)|免费|
 | Poe | 美版知乎 Quora 构建的AI 产品，有web和客户端。目前的情况是ChatGPT、Sage、Dragonfly、Claude 机器人可以免费、无限制、实时使用。只需要一个邮箱即可注册。可以随时切换AI而对话不中断，并且对话记录是在线保存并且同步到客户端的。chatgpt-4可以每天免费使用一次 <br> 视频介绍：[B站视频：神器！与chatGPT类似的新人工智能问答AI：Poe, 美国知乎Quaro最新产品，专业回答](https://www.bilibili.com/video/BV13Y411B7Az)| [URL](https://poe.com/) |免费，有付费升级版|
 | NoteGPT|NoteGPT 是一款智能笔记工具，它可以记录、转录并总结各种内容，比如会议、讲座、播客、YouTube 视频、B站视频、新闻简报和文章等。|[URL](https://notegpt.io/)|免费/付费|
-| bot.360|360构建的AI对话机器人，集合了国内主要的一些大模型比如豆包、kimi、MiniMax、通义千问等|[URL](https://bot.360.com/)|免费|
 | HuggingChat|Hugging Face 的开源聊天应用程序 Hugging Chat. [URL](https://huggingface.co/chat/)|[Github](https://github.com/huggingface/chat-ui) ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/chat-ui?style=social)|免费|
 | monica | AI助手，提供搜索、阅读、写作、翻译、绘画等多种任务的帮助。有独立应用和浏览器插件| [URL](https://monica.im) <br> [chrome插件](https://chromewebstore.google.com/detail/monica-your-ai-copilot-po/ofpnmcalabcbjgholdjcjblkibolbppb)|免费/付费|
 | ollama | 在本地环境中轻松运行和管理大型语言模型，如Llama 、Mistral、Gemma2等|[Github](https://github.com/ollama/ollama) ![GitHub Repo stars](https://img.shields.io/github/stars/ollama/ollama?style=social) |免费|
 | openai/openai-python | OpenAI API 的官方 Python 库，它是使用[Stainless](https://stainlessapi.com/)根据[OpenAI 规范]((https://github.com/openai/openai-openapi))生成的 | [Github](https://github.com/openai/openai-python)![GitHub Repo stars](https://img.shields.io/github/stars/openai/openai-python?style=social)| 免费/付费 (API) |
 |sashabaranov/go-openai|OpenAI API的Go语言非官方的SDK，支持ChatGPT、GPT-3、 GPT-4、DALL·E 2|[Github](https://github.com/sashabaranov/go-openai)![GitHub Repo stars](https://img.shields.io/github/stars/sashabaranov/go-openai?style=social)|免费|
 |langchain|是一个强大的框架，旨在帮助开发人员使用语言模型构建端到端的应用程序。它提供了一套工具、组件和接口，可简化创建由大型语言模型 (LLM) 和聊天模型提供支持的应用程序的过程。LangChain 可以轻松管理与语言模型的交互，将多个组件链接在一起，并集成额外的资源，例如 API 和数据库。|[Github](https://github.com/langchain-ai/langchain) ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social)|免费|
-|ChatGPT-Next-Web|一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型|[Github](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) ![GitHub Repo stars](https://img.shields.io/github/stars/ChatGPTNextWeb/ChatGPT-Next-Web?style=social)|免费|
+|NextChat (ChatGPT-Next-Web)|轻量快速的 AI 助手，提供精心设计的跨平台 ChatGPT Web UI。支持 Web、iOS、macOS、Android、Linux 和 Windows，兼容 Claude、DeepSeek、GPT-4、Gemini 等模型|[Github](https://github.com/ChatGPTNextWeb/NextChat) ![GitHub Repo stars](https://img.shields.io/github/stars/ChatGPTNextWeb/NextChat?style=social)|免费|
 |anything-llm|开源的文档聊天机器人解决方案|[Github](https://github.com/Mintplex-Labs/anything-llm) ![GitHub Repo stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social)|免费|
 | screenshot-to-code | 将截图、设计稿、Figma 设计和屏幕录制转换为干净的功能代码。支持多种 AI 模型（Gemini 3 Flash、GPT-5.5、Claude Opus 4.8）和输出框架（HTML+Tailwind、React、Vue、Bootstrap 等）。还支持 URL 克隆和视频转代码功能。 | [GitHub](https://github.com/abi/screenshot-to-code) ![GitHub Repo stars](https://img.shields.io/github/stars/abi/screenshot-to-code?style=social)| 免费，需要 API 密钥（推荐 OpenAI/Anthropic/Gemini）|
 | Chatbox | 使用ChatGPT API（OpenAI API）的桌面应用程序, 将所有的聊天信息和提示信息存储在本地，从而减少了数据丢失的风险。比网页版使用更稳定些| [GitHub](https://github.com/Bin-Huang/chatbox) ![GitHub Repo stars](https://img.shields.io/github/stars/Bin-Huang/chatbox?style=social)| 免费，需要使用OpenAPI的[apikey](https://platform.openai.com/account/api-keys)|
 |together.ai chat|与 HuggingChat 类似，可选择不同的开源模型，支持 DeepSeek R1、LLaMA、QWen 和 Flux Schnell。每天 60 条免费信息。|[URL](https://chat.together.ai/)|免费/付费|
-| gpt-crawler | 可以爬取指定网站中的内容，并生成json文件，可以直接上传到GPTs的知识库使用 | [Github](https://github.com/BuilderIO/gpt-crawler)![GitHub Repo stars](https://img.shields.io/github/stars/BuilderIO/gpt-crawler?style=social)| 免费|
 | ChatGPT-Shortcut | 开源，让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。| [GitHub](https://github.com/rockbenben/ChatGPT-Shortcut) ![GitHub Repo stars](https://img.shields.io/github/stars/rockbenben/ChatGPT-Shortcut?style=social)|免费|
 |ChatGPT Sidebar|ChatGPT 边栏是您在浏览任何网站时可以使用的人工智能助手。<br> 视频介绍：[B站视频：CharGPT初体验，浏览器安装人工智能侧边栏AI Sidebar扩展程序](https://www.bilibili.com/video/BV1Y24y1L7JA)|[URL](https://chrome.google.com/webstore/detail/chatgpt-sidebar-support-g/difoiogjjojoaoomphldepapgpbgkhkb)|免费|
 | AIPRM for ChatGPT |浏览器插件，提供一系列精选ChatGPT 指令模板，甚至还能够自己创建，还可以调整AI 语气和写作风格 <br>B站视频：[集大成者！ChatGPT百宝箱，内置多种功能，所见即所得！](https://www.bilibili.com/video/BV1LT411S7GK)| [URL](https://chrome.google.com/webstore/detail/aiprm-for-chatgpt/ojnbohmppadfgpejeebfnmnknjdlckgj) | 免费|
 | MindMac | 功能丰富、隐私第一的 macOS 原生 ChatGPT 应用程序，可在一个地方使用 OpenAI, Azure OpenAI, Anthropic Claude, OpenRouter，旨在实现最大生产力。 目前有 15 种语言版本。| [URL](https://mindmac.app/) | 免费，有付费升级版 |
 |OpenRouter| 集成了 400 余种 AI 模型（OpenAI、Anthropic、Google、Mistral 等）的统一 API 网关。零加价定价，推理流量仅收取 5% 服务费，支持智能路由 / 故障转移|[URL](https://openrouter.ai/)| 免费/付费 |
 | IMA |IMA是腾讯推出的一款AI智能工作台，它集成了搜索、阅读、写作、知识库管理等多种功能。目前只有Mac和Windows客户端。搜索相比其他搜索能覆盖微信公众号文章，支持知识库管理比如上传本地文件、公众号文章或网页链接，构建个人知识库。支持写作但目前不支持文件夹的功能。|[URL](https://ima.qq.com/) |免费|
-| MindSearch |中科大和上海人工智能实验室联合研发国产开源搜索引擎MindSearch（思・索）,采用分层检索策略，先广泛搜索再精确选择，有效管理互联网上的海量信息。[在线Demo](https://mindsearch.openxlab.org.cn/)|[Github](https://github.com/InternLM/mindsearch) ![GitHub Repo stars](https://img.shields.io/github/stars/InternLM/mindsearch?style=social)|免费|
 
 ### AI Coding
 | 名称 | 说明 | 链接 | 费用 |
@@ -227,11 +224,11 @@
 | GitHub Copilot | GitHub 和 OpenAI 合作开发的一个代码编写助手 <br>[Github Copilot技巧和窍门](https://bilibili.com/video/BV1ic411T7Jd) | [URL](https://github.com/features/copilot)  | 付费 |
 | OpenCode | 开源的终端原生 AI 编码 agent。不绑定特定厂商（支持 Anthropic、OpenAI、Google 及本地模型），采用 TUI 客户端/服务端架构，集成 LSP，支持自定义 agent 和 MCP 服务器。[入门介绍](docs/opencode/README-CN.md) | [URL](https://opencode.ai) [Github](https://github.com/anomalyco/opencode) ![GitHub Repo stars](https://img.shields.io/github/stars/anomalyco/opencode?style=social) | 免费 |
 | OpenChamber | OpenCode AI agent 的桌面/网页图形界面。在 OpenCode 之上提供会话管理、diff 查看和工作区控制。[入门介绍](docs/openchamber/README-CN.md) | [URL](https://openchamber.dev) [Github](https://github.com/openchamber/openchamber) ![GitHub Repo stars](https://img.shields.io/github/stars/openchamber/openchamber?style=social) | 免费 |
+| oh-my-pi | @can1357 维护的 Pi fork。终端原生 AI 编码 agent，深度集成 IDE 能力：LSP、DAP 调试器、Python/Bun 代码执行、40+ 模型提供商和 32 个内置工具。[入门介绍](docs/oh-my-pi/README-CN.md) | [Github](https://github.com/can1357/oh-my-pi) ![GitHub Repo stars](https://img.shields.io/github/stars/can1357/oh-my-pi?style=social) | 免费 |
 | 通义灵码|阿里云开发的代码编写助手，可根据当前代码文件及跨文件的上下文，为你生成行级/函数级代码、单元测试、代码注释等，支持 Java、Python、Go、JavaScript、TypeScript、C/C++、C# 等主流语言，同时兼容 Visual Studio Code、JetBrains IDEs 等主流编程工具|[URL](https://tongyi.aliyun.com/lingma/)|免费|
 | CodeGeeX | 智谱AI旗下的代码生成大模型，支持200多种主流编程语言的生成及翻译。开源模型：<br>[CodeGeeX2](https://github.com/THUDM/CodeGeeX2/) ![GitHub Repo stars](https://img.shields.io/github/stars/THUDM/CodeGeeX2?style=social) <br>[CodeGeex4](https://github.com/THUDM/CodeGeeX4) ![GitHub Repo stars](https://img.shields.io/github/stars/THUDM/CodeGeeX4?style=social)<br> [【项目原作解读】清华大学郑勤锴：CodeGeeX大规模多语言代码生成模型](https://www.bilibili.com/video/BV1wT41127Tq/) | [URL](https://codegeex.cn/) |免费|
 | Amazon CodeWhisperer | 亚马逊开放的AI编程辅助工具，根据你的注释和现有代码，实时生成从片段到完整功能的代码建议。在各种IDE的插件中可以安装,支持15种语言, 包括 Python, Java, and JavaScript等。只需要按照流程注册一个aws builder账号即可。| [URL](https://aws.amazon.com/cn/codewhisperer)| 免费|
 |腾讯云AI代码助手|腾讯云 AI 代码助手主要提供两类功能：AI 助手对话功能和代码补全功能。|[URL](https://console.cloud.tencent.com/acc)|免费|
-| Kagan | 用于自主开发工作流的AI驱动看板TUI工具。集成Claude Code和OpenCode，支持基于工单的AI编码、git worktree隔离和MCP服务器。 | [GitHub](https://github.com/aorumbayev/kagan) ![GitHub Repo stars](https://img.shields.io/github/stars/aorumbayev/kagan?style=social) | 免费 |
 | Happy Coder | Codex和Claude Code的移动端和Web客户端，支持实时语音、加密和全功能 | [URL](https://happy.engineering) [GitHub](https://github.com/slopus/happy) ![GitHub Repo stars](https://img.shields.io/github/stars/slopus/happy?style=social) | 免费 |
 | Termux | Android终端模拟器和Linux环境应用，可直接在移动设备上运行编码工具、AI模型和各类开发环境，内置SSH客户端支持登录远程主机。 | [Github](https://github.com/termux/termux-app) ![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-app?style=social) | 免费 |
 | AI-Codereview-Gitlab | 基于大模型(DeepSeek, OpenAI等)的 GitLab 自动代码审查工具；支持钉钉/企业微信/飞书推送消息和生成日报；支持Docker部署；可视化 Dashboard。 | [Github](https://github.com/sunmh207/AI-Codereview-Gitlab) ![GitHub Repo stars](https://img.shields.io/github/stars/sunmh207/AI-Codereview-Gitlab?style=social) | 免费 |
@@ -245,6 +242,8 @@
 | --- | --- | --- | --- |
 | SemiAnalysis | 由 Dylan Patel 创办，专注于半导体、AI 硬件、GPU、数据中心及算力供应链的深度研究与分析。发布对 AI 行业有深入研究的长篇行业研报（部分免费，大部分需订阅）。 | [X](https://x.com/SemiAnalysis_)、[官网](https://semianalysis.com) | 免费/付费 |
 | World Monitor | AI驱动的实时全球情报面板，聚合435+个精选信源，提供地缘政治监控、基础设施追踪、AI摘要、21种语言支持，可本地运行AI模型，支持全平台桌面端应用 | [Github](https://github.com/koala73/worldmonitor) ![GitHub Repo stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=social)、[官网](https://worldmonitor.app) | 免费 |
+| Prismix | AI 服务实时状态监控中心，聚合 75+ AI 服务（OpenAI、Anthropic、Grok、Cursor 等）的实时运行状态，提供来自 55+ 来源的精选 AI 新闻并支持个性化信息流，还包含 500+ MCP 服务器目录及告警功能。 | [官网](https://prismix.dev) | 免费/付费 |
+| AI Weekly | 独立的 AI 新闻通讯，自 2015 年起每周 3 期，读者超过 44,000 名专业人士。聚焦真正重要的 AI 报道，由编辑单人策划。 | [官网](https://aiweekly.co) | 免费 |
 
 ### AI金融与量化投资
 | 名称 | 说明 | 链接 | 费用 |
@@ -272,13 +271,12 @@
 | clipdrop | stability.ai 公司旗下的图像处理网站，包含文生图、AI扩图、图生图、去除背景等功能 | [URL](https://clipdrop.co/)| 免费/ 付费|
 | civitai | Civitai(C站)是一个用于分享AI图像创作模型资源的网站平台，拥有大量模型，已成为SD开源社区主要的模型交流场所 |[URL](https://civitai.com/)|免费|
 | 通义万相 | 阿里旗下的文生图和AI图片创作应用| [URL](https://wanxiang.aliyun.com/) | 免费 |
-| 美图的奇想智能MiracleVision|美图的文生图应用|[URL](https://www.miraclevision.com/text-to-image/)|免费|
 | ideogram.ai | AI 文字生成图片的网站。前谷歌AI绘画4位大牛创立的公司推出的产品 | [URL](https://ideogram.ai/) | 免费 |
 | Skybox AI | 输入文字生成360度全景图片 | [URL](https://skybox.blockadelabs.com/)| 免费/ 付费|
 | Nero AI | AI图片放大、修复划痕、AI图片上色、AI图片去噪、AI一键抠图换背景、AI神奇擦除笔、AI写真；[介绍](https://github.com/ikaijua/Awesome-AITools/issues/100)。API文档：https://ai.nero.com/ai-api/docs/|[URL]( https://ai.nero.com/)|付费/试用|
 | remove.bg |一键删除图片背景|[URL](https://www.remove.bg/)|免费/付费|
 |ControlNet|能够在一个text2image上训练的扩散模型进行高效finetune，并且结合特定的condition输入，得到可控的效果|[Github](https://github.com/lllyasviel/ControlNet) ![GitHub Repo stars](https://img.shields.io/github/stars/lllyasviel/ControlNet?style=social)|免费|
-|black-forest-labs/flux|FLUX.1 模型的官方推理资源库|[Github](https://github.com/black-forest-labs/flux) ![GitHub Repo stars](https://img.shields.io/github/stars/black-forest-labs/flux?style=social)|免费|
+|black-forest-labs/flux2|FLUX.2 模型的官方推理资源库|[Github](https://github.com/black-forest-labs/flux2) ![GitHub Repo stars](https://img.shields.io/github/stars/black-forest-labs/flux2?style=social)|免费|
 | Topaz Photo AI | 面向摄影师的AI图像增强套件，集成图像放大、降噪、锐化、人脸修复等功能，本地桌面端运行 |[URL](https://www.topazlabs.com/topaz-photo-ai)|付费/试用|
 
 ### AI视频创作
@@ -296,7 +294,7 @@
 | 腾讯混元AI视频|文生视频、图生视频功能；对口型和动作驱动功能：可以通过上传照片和音频或选择动作模版生成视频; 需要排队|[URL](https://video.hunyuan.tencent.com/)|免费|
 | Dream Machine|由 Luma AI 提供。Dream Machine 是一个人工智能模型，能根据文本和图像快速制作出高质量、逼真的视频。[官方介绍视频](https://www.youtube.com/watch?v=Zb3tffmBPRE)|[URL](https://lumalabs.ai/dream-machine)|免费/付费|
 | Runway | Gen-2: 文本/图像 AI生成视频 <br> Gen-1: 根据视频AI生成视频 <br>应用示例：<br> [B站视频：数字生命卡兹克/我用AI做了一部《流浪地球3》的预告片](https://www.bilibili.com/video/BV1hF411f7rg) <br>精选视频：https://runwayml.com/staff-picks | [URL](https://runwayml.com/) | 免费试用/付费|
-| MOKI |美图的AI短片创作工具|[URL](www.moki.cn)| 免费试用/付费|
+| MOKI |美图的AI短片创作工具|[URL](https://www.moki.cn)| 免费试用/付费|
 | Pika | 文本/图像 AI生成视频| [URL](https://pika.art/home)| 免费试用/付费|
 | krea.ai| 提供文生图/视频、图片放大、模型训练等功能，Krea ai想做视频和图片界的 POE，目前集成了海螺、luma、Runway和可灵四家最好的视频生成模型。|[URL](https://www.krea.ai/)|免费试用/付费|
 | HeyGen | 根据文字生成数字人的配音视频 | [URL](https://app.heygen.com/) | 免费试用/付费 |
@@ -429,7 +427,6 @@
 ### 视频翻译
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
-|easyvideotrans|着眼于从原始视频到翻译后最终视频的整个工作流程，[在线网站](https://easyvideotrans.com/)|[Github](https://github.com/sutro-planet/easyvideotrans) ![GitHub Repo stars](https://img.shields.io/github/stars/sutro-planet/easyvideotrans?style=social)|免费|
 |VideoLingo|VideoLingo 是一站式视频翻译本地化配音工具，能够一键生成 Netflix 级别的高质量字幕，告别生硬机翻，告别多行字幕，还能加上高质量的克隆配音。|[Github](https://github.com/Huanshere/VideoLingo) ![GitHub Repo stars](https://img.shields.io/github/stars/Huanshere/VideoLingo?style=social)|免费|
 
 ### 学术科研

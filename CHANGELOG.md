@@ -3,6 +3,15 @@
 All notable changes to the Awesome AI Tools list will be documented in this file.
 
 ## July 2026
+- Updated black-forest-labs/flux to black-forest-labs/flux2 in AI Image Creation section (CN)
+- Removed easyvideotrans from Video Translation section (archived)
+- Added Prismix and AI Weekly to AI News & Information section in Chinese README
+- Removed 美图的奇想智能 MiracleVision from AI Image Creation section (feature offline)
+- Removed Kagan from AI Coding section (archived)
+- Removed MindSearch from GPT-LLMs应用 section (unmaintained)
+- Removed gpt-crawler from GPT-LLMs应用 section (unmaintained)
+- Renamed ChatGPT-Next-Web to NextChat and updated description/links in GPT-LLMs应用 section (both EN/CN)
+- Removed bot.360 from GPT-LLMs应用 section (site no longer functional)
 - Added light-ocr to the OCR section (both EN/CN)
 - Added StructEval to LLM Leaderboard section (both EN/CN)
 - Added last30days-skill (mvanhorn/last30days-skill) to Agent Skills section (both EN/CN)
