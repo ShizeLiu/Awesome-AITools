@@ -133,6 +133,7 @@
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
 |OpenClaw|开源的自托管 AI 智能体，可以在本地运行并自主执行任务。能够连接 WhatsApp、Telegram、Slack、Discord 等消息平台，控制浏览器，访问系统，具有持久记忆功能。由 Peter Steinberger 开发，是增长最快的开源项目之一。[入门介绍](docs/openclaw/README-CN.md)|[Github](https://github.com/openclaw/openclaw) ![GitHub Repo stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)|免费|
+|OpenWorker|吴恩达（Andrew Ng）开源的本地优先桌面 AI 同事。以交付完整工作成果（文档、Slack 回复、日程更新、报告）为目标，而非仅提供聊天回答。支持 35+ 应用连接器、MCP 协议，可接入自有 API Key 的多种模型（OpenAI、Anthropic、Gemini、DeepSeek、Kimi、Qwen、Ollama 等），数据和凭证本地存储。[入门介绍](docs/openworker/README-CN.md)|[Github](https://github.com/andrewyng/openworker) ![GitHub Repo stars](https://img.shields.io/github/stars/andrewyng/openworker?style=social)|免费|
 | Claude Code | Anthropic的AI编程助手，以编程能力强著称。最佳用于：编程、长上下文、安全性、企业使用。支持终端 CLI、VS Code/Cursor/JetBrains IDE 插件、独立桌面 App 和 Web 版，也可从 Claude iOS App 或浏览器继续任务。[入门介绍](docs/claude-code/README-CN.md) |[URL](https://docs.anthropic.com/en/docs/claude-code/quickstart) [Github](https://github.com/anthropics/claude-code)<br> ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-code?style=social)|免费|
 |Codex|OpenAI推出的基于 Rust 开发的高性能编程智能体。支持终端 CLI、VS Code/Cursor/Windsurf 等 IDE 扩展、Codex Web，以及 Codex App/桌面体验，可直接理解和修改代码。[入门介绍](docs/codex/README-CN.md)|[Github](https://github.com/openai/codex) ![GitHub Repo stars](https://img.shields.io/github/stars/openai/codex?style=social)|免费|
 | Kimi Code | 月之暗面（Moonshot AI）推出的 AI 编程智能体 CLI，在终端中运行。可读取和编辑代码、执行 shell 命令、搜索文件、抓取网页，并根据反馈规划下一步。支持视频输入、AI 原生 MCP 配置、子代理、生命周期钩子以及 ACP 编辑器集成（Zed、JetBrains）。[入门介绍](docs/kimi-code/README-CN.md) | [Github](https://github.com/MoonshotAI/kimi-code) ![GitHub Repo stars](https://img.shields.io/github/stars/MoonshotAI/kimi-code?style=social) | 免费 |
@@ -254,6 +255,7 @@
 | code-review-graph | 基于 Tree-sitter 构建代码结构图并增量追踪变更，通过 MCP 为 AI 编程助手提供精准的代码审查上下文，减少重复读取整个代码库。 | [Github](https://github.com/tirth8205/code-review-graph) ![GitHub Repo stars](https://img.shields.io/github/stars/tirth8205/code-review-graph?style=social) | 免费 |
 | Cate | 开源桌面 IDE，基于无限缩放画布。可以把 Monaco 编辑器、xterm.js 终端、内嵌浏览器和 Claude Code 智能体面板自由排布在可缩放的空间里，代替传统的窗口和标签页。面板支持浮动、停靠或分离为独立窗口，布局按项目自动保存。基于 Electron 构建，支持 macOS、Windows 和 Linux。 | [URL](https://cate.cero-ai.com) [Github](https://github.com/0-AI-UG/cate) ![GitHub Repo stars](https://img.shields.io/github/stars/0-AI-UG/cate?style=social) | 免费 |
 | CLIProxyAPI | 代理服务器，将各类 AI CLI 工具和订阅（Claude Code、Codex、Gemini、Grok 等）通过 OpenAI/Gemini/Claude/Codex 兼容的 API 接口暴露出来。支持 OAuth 登录、流式/WebSocket 响应、函数调用、多模态输入，以及跨多账号的负载均衡。 | [Github](https://github.com/router-for-me/CLIProxyAPI) ![GitHub Repo stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=social) | 免费 |
+| Codex Security | OpenAI 开源的 CLI 与 TypeScript SDK，用于发现、验证并修复代码中的安全漏洞。支持仓库扫描、漏洞追踪、修复验证、CI/CD 集成以及容器化批量扫描。[入门介绍](docs/codex-security/README-CN.md) | [Github](https://github.com/openai/codex-security) ![GitHub Repo stars](https://img.shields.io/github/stars/openai/codex-security?style=social) | 免费 |
 
 ### AI 新闻与资讯
 | 名称 | 说明 | 链接 | 费用 |

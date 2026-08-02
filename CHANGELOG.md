@@ -3,6 +3,7 @@
 All notable changes to the Awesome AI Tools list will be documented in this file.
 
 ## July 2026
+- Added Codex Security (openai/codex-security) to AI Coding section with documentation (both EN/CN)
 - Updated black-forest-labs/flux to black-forest-labs/flux2 in AI Image Creation section (CN)
 - Removed easyvideotrans from Video Translation section (archived)
 - Added Prismix and AI Weekly to AI News & Information section in Chinese README
@@ -30,6 +31,7 @@ All notable changes to the Awesome AI Tools list will be documented in this file
 - Removed AnimateDiff from Video Creation section (unmaintained; superseded by newer video models)
 - Removed suno-ai/bark from AI generated music or sound effects section (unmaintained)
 - Added Humanoid Robots section to English README to match Chinese (10 companies: Figure 03, Atlas, Optimus Gen 2, Apollo, GR-1, Digit, NEO, H1, Phoenix, MenteeBot)
+- Added OpenWorker (andrewyng/openworker) to AI Agent section with documentation (both EN/CN)
 
 ## June 2026
 - Added Topaz Photo AI to AI Image Creation section and Topaz Video AI to Video Creation section (both EN/CN)
