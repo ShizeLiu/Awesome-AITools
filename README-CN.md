@@ -74,6 +74,7 @@
 - [GPU编程](#gpu编程)
 - [LLM Prompts](#llm-prompts)
 - [大语言模型训练-评估平台](#大语言模型训练-评估平台)
+- [LLM 推理与部署](#llm-推理与部署)
 - [阅读](#阅读)
 - [写作](#写作)
 - [翻译工具](#翻译工具)
@@ -158,6 +159,7 @@
 |CLI-Anything|香港大学开发的开源框架，让所有软件都能原生支持 AI 代理 —— 通过 7 阶段流水线为任意应用自动生成生产级 CLI，使 AI 代理能够控制任何桌面软件。支持 Claude Code、OpenClaw、Codex 等 16+ AI 代理平台，并包含 CLI-Hub 用于社区 CLI 发现和安装。|[Github](https://github.com/HKUDS/CLI-Anything) ![GitHub Repo stars](https://img.shields.io/github/stars/HKUDS/CLI-Anything?style=social)|免费|
 |MemPalace|开源AI记忆系统，将完整对话和项目数据本地存储，无需依赖云端。采用"记忆宫殿"分层结构组织记忆，在 LongMemEval 基准测试中达到 96.6% 召回率（目前得分最高），支持 MCP 集成，可以配合本地大语言模型离线使用。|[Github](https://github.com/milla-jovovich/mempalace) ![GitHub Repo stars](https://img.shields.io/github/stars/milla-jovovich/mempalace?style=social)|免费|
 | codesight | CLI 令牌（token）优化器和 AI 上下文生成器，内置 MCP 服务器。扫描代码库以提取路由、架构、组件和依赖项，将 AI 上下文令牌减少 9 倍至 13 倍。支持 Claude Code、Cursor、Copilot、Codex 和 Windsurf。零运行时依赖。 | [Github](https://github.com/Houseofmvps/codesight) ![GitHub Repo stars](https://img.shields.io/github/stars/Houseofmvps/codesight?style=social) | 免费 |
+| Orkas | 开源、本地优先的多智能体 AI 桌面客户端。Commander 会拆解目标，并协调拥有独立技能和记忆的专职 Agent 并行或串行工作。支持自带模型服务和本地模型端点，也可调用 Claude Code、Codex、OpenClaw、OpenCode 和 Hermes。跨平台支持 macOS、Windows 和 Linux。 | [官网](https://orkas.ai?source=github_awesome_aitools) [Github](https://github.com/Orkas-AI/Orkas) ![GitHub Repo stars](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=social) | 免费 |
 | Hermes Agent | NousResearch 开发的开源 AI Agent 框架，基于 Hermes 系列模型构建，在工具调用和推理能力上进行了精细微调，用于构建自主 AI 智能体。 | [Github](https://github.com/NousResearch/hermes-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social) | 免费 |
 | Screenpipe | 开源的 24/7 本地屏幕和麦克风录制工具，具备 OCR、音频转录和语义搜索功能。通过 MCP 为 AI 智能体提供您所看、所说、所听内容的长期上下文。支持 Ollama 或任何本地大语言模型，完全离线运行。跨平台（macOS / Windows / Linux）。 | [Github](https://github.com/screenpipe/screenpipe) ![GitHub Repo stars](https://img.shields.io/github/stars/screenpipe/screenpipe?style=social) | 免费 |
 | CC Switch | 跨平台桌面应用，用于一站式管理 Claude Code, Codex, Gemini CLI, OpenCode 和 OpenClaw。提供可视化界面管理 API 供应商、MCP 服务器和技能，支持双向同步。[入门介绍](docs/cc-switch/README-CN.md) | [Github](https://github.com/farion1231/cc-switch) ![GitHub Repo stars](https://img.shields.io/github/stars/farion1231/cc-switch?style=social) | 免费 |
@@ -242,6 +244,7 @@
 | Trae | 字节跳动推出的类似Cursor的AI编程IDE|[URL](http://trae.com.cn)|免费|
 | Cursor | 使用 GPT进行协作的代码编辑器 | [URL](https://www.cursor.so) | 付费/免费试用 |
 | GitHub Copilot | GitHub 和 OpenAI 合作开发的一个代码编写助手 <br>[Github Copilot技巧和窍门](https://bilibili.com/video/BV1ic411T7Jd) | [URL](https://github.com/features/copilot)  | 付费 |
+| Markstream | 面向 AI 对话界面的开源流式 Markdown 渲染器家族，可处理未闭合 Markdown 并平滑展示 token 流。提供持续维护的 Vue 3/Nuxt、React/Next.js、Svelte、Angular、Vue 2 及框架无关的 parser/core 包，并支持 Mermaid、KaTeX、代码高亮、安全 HTML 与 SSR。 | [框架入口](https://markstream.simonhe.me/frameworks) [Vue 在线体验](https://markstream-vue.simonhe.me/) [Github](https://github.com/Simon-He95/markstream-vue) ![GitHub Repo stars](https://img.shields.io/github/stars/Simon-He95/markstream-vue?style=social) | 免费 |
 | OpenCode | 开源的终端原生 AI 编码 agent。不绑定特定厂商（支持 Anthropic、OpenAI、Google 及本地模型），采用 TUI 客户端/服务端架构，集成 LSP，支持自定义 agent 和 MCP 服务器。[入门介绍](docs/opencode/README-CN.md) | [URL](https://opencode.ai) [Github](https://github.com/anomalyco/opencode) ![GitHub Repo stars](https://img.shields.io/github/stars/anomalyco/opencode?style=social) | 免费 |
 | OpenChamber | OpenCode AI agent 的桌面/网页图形界面。在 OpenCode 之上提供会话管理、diff 查看和工作区控制。[入门介绍](docs/openchamber/README-CN.md) | [URL](https://openchamber.dev) [Github](https://github.com/openchamber/openchamber) ![GitHub Repo stars](https://img.shields.io/github/stars/openchamber/openchamber?style=social) | 免费 |
 | oh-my-pi | @can1357 维护的 Pi fork。终端原生 AI 编码 agent，深度集成 IDE 能力：LSP、DAP 调试器、Python/Bun 代码执行、40+ 模型提供商和 32 个内置工具。[入门介绍](docs/oh-my-pi/README-CN.md) | [Github](https://github.com/can1357/oh-my-pi) ![GitHub Repo stars](https://img.shields.io/github/stars/can1357/oh-my-pi?style=social) | 免费 |
@@ -345,6 +348,11 @@
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
 | FastChat | 用于训练、服务和评估大型语言模型的开放平台。Vicuna 和 Chatbot Arena 的发布仓库。| [Github](https://github.com/lm-sys/FastChat) ![GitHub Repo stars](https://img.shields.io/github/stars/lm-sys/FastChat?style=social)| Free |
+
+### LLM 推理与部署
+| 名称 | 说明 | 链接 | 费用 |
+| --- | --- | --- | --- |
+| AirLLM | 通过逐层加载大幅降低大语言模型推理显存占用的 Python 库，可在 4GB 显存上运行 70B 模型、8GB 上运行 405B 模型、约 12GB 上运行 671B 的 DeepSeek-V3。支持 4 位/8 位量化，并通过统一的 AutoModel 接口支持众多开源模型。 | [Github](https://github.com/lyogavin/airllm) ![GitHub Repo stars](https://img.shields.io/github/stars/lyogavin/airllm?style=social) | 免费 |
 
 ### 阅读
 | 名称 | 说明 | 链接 | 费用 |

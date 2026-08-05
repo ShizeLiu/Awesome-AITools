@@ -75,6 +75,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
   - [GPU Programming](#gpu-programming)
   - [LLM Prompts](#llm-prompts)
   - [LLM training platform](#llm-training-platform)
+  - [LLM Inference & Deployment](#llm-inference--deployment)
   - [Writing](#writing)
   - [Translation](#translation)
   - [Speech Recognition](#speech-recognition)
@@ -146,6 +147,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 |MemPalace|Open-source AI memory system that stores full conversations and project data locally without cloud dependencies. Organizes memories into a hierarchical "palace" structure, achieves 96.6% recall on LongMemEval benchmarks (highest scoring), supports MCP integration and works offline with local LLMs.|[Github](https://github.com/milla-jovovich/mempalace) ![GitHub Repo stars](https://img.shields.io/github/stars/milla-jovovich/mempalace?style=social)|Free|
 | codesight | CLI token optimizer and AI context generator with built-in MCP server. Scans codebases to extract routes, schema, components, and dependencies, reducing AI context tokens by 9x–13x. Profiles for Claude Code, Cursor, Copilot, Codex, and Windsurf. Zero runtime dependencies. | [Github](https://github.com/Houseofmvps/codesight) ![GitHub Repo stars](https://img.shields.io/github/stars/Houseofmvps/codesight?style=social) | Free |
 | AgentsMesh | The AI Agent Workforce Platform. Self-hostable remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, multi-agent collaboration via channels and pod bindings, built-in Kanban with MR/PR integration, per-pod MCP server. Supports Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode. | [Github](https://github.com/AgentsMesh/AgentsMesh) ![GitHub Repo stars](https://img.shields.io/github/stars/AgentsMesh/AgentsMesh?style=social) | Free (BSL-1.1) |
+| Orkas | Open-source, local-first multi-agent AI desktop client. A Commander decomposes goals and coordinates specialist agents in parallel or sequence, with private skills and memory. Supports BYO model providers and local model endpoints, and can drive Claude Code, Codex, OpenClaw, OpenCode, and Hermes. Cross-platform (macOS / Windows / Linux). | [Website](https://orkas.ai?source=github_awesome_aitools) [Github](https://github.com/Orkas-AI/Orkas) ![GitHub Repo stars](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=social) | Free |
 | Hermes Agent | Open-source agentic framework built by NousResearch, fine-tuned on Hermes models with strong tool calling and reasoning capabilities for building autonomous AI agents. | [Github](https://github.com/NousResearch/hermes-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social) | Free |
 | Screenpipe | Open-source 24/7 local screen + microphone recorder with OCR, audio transcription, and semantic search. Provides AI agents with long-term context of everything you've seen, said, or heard via MCP. Fully offline with Ollama or any local LLM. Cross-platform (macOS / Windows / Linux). | [Github](https://github.com/screenpipe/screenpipe) ![GitHub Repo stars](https://img.shields.io/github/stars/screenpipe/screenpipe?style=social) | Free |
 | CC Switch | Cross-platform desktop app to manage Claude Code, Codex, Gemini CLI, OpenCode, and OpenClaw. Features visual configuration for API providers, MCP servers, and skills with bidirectional sync. [Intro](docs/cc-switch/README.md) | [Github](https://github.com/farion1231/cc-switch) ![GitHub Repo stars](https://img.shields.io/github/stars/farion1231/cc-switch?style=social) | Free |
@@ -237,6 +239,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | --- | --- | --- | --- |
 | Cursor | A collaborative code editor using GPT | [URL](https://www.cursor.so) | Paid/Free Trial |
 | GitHub Copilot | A code writing assistant developed by GitHub and OpenAI | [URL](https://github.com/features/copilot) | Paid|
+| Markstream | Open-source streaming Markdown renderer family for AI chat interfaces. Handles incomplete Markdown and smooth token pacing, with maintained Vue 3/Nuxt, React/Next.js, Svelte, Angular, Vue 2, and framework-agnostic parser/core packages. Supports Mermaid, KaTeX, code highlighting, safe HTML, and SSR. | [Frameworks](https://markstream.simonhe.me/frameworks) [Vue Playground](https://markstream-vue.simonhe.me/) [Github](https://github.com/Simon-He95/markstream-vue) ![GitHub Repo stars](https://img.shields.io/github/stars/Simon-He95/markstream-vue?style=social) | Free |
 | OpenCode | Open-source terminal-native AI coding agent. Provider-agnostic (Anthropic, OpenAI, Google, local models), with a TUI client/server architecture, LSP integration, and support for custom agents and MCP servers. [Intro](docs/opencode/README.md) | [URL](https://opencode.ai) [Github](https://github.com/anomalyco/opencode) ![GitHub Repo stars](https://img.shields.io/github/stars/anomalyco/opencode?style=social) | Free |
 | OpenChamber | Desktop and web GUI for the OpenCode AI agent. Provides session management, diffs, and workspace control on top of OpenCode. [Intro](docs/openchamber/README.md) | [URL](https://openchamber.dev) [Github](https://github.com/openchamber/openchamber) ![GitHub Repo stars](https://img.shields.io/github/stars/openchamber/openchamber?style=social) | Free |
 | oh-my-pi | Fork of Pi by @can1357. A terminal-native AI coding agent with the IDE wired in: LSP, DAP debugging, Python/Bun code execution, 40+ providers, and 32 built-in tools. [Intro](docs/oh-my-pi/README.md) | [Github](https://github.com/can1357/oh-my-pi) ![GitHub Repo stars](https://img.shields.io/github/stars/can1357/oh-my-pi?style=social) | Free |
@@ -337,6 +340,11 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | Name | Description | Links | Fees |
 | --- | --- | --- | --- |
 | lm-sys/FastChat | An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. | [Github](https://github.com/lm-sys/FastChat) ![GitHub Repo stars](https://img.shields.io/github/stars/lm-sys/FastChat?style=social)| Free |
+
+### LLM Inference & Deployment
+| Name | Description | Links | Fees |
+| --- | --- | --- | --- |
+| AirLLM | A Python library that reduces LLM inference memory usage by loading one layer at a time, enabling 70B models on 4GB GPUs, 405B on 8GB, and 671B DeepSeek-V3 on ~12GB. Supports 4-bit/8-bit quantization and a wide range of open models via a single AutoModel interface. | [Github](https://github.com/lyogavin/airllm) ![GitHub Repo stars](https://img.shields.io/github/stars/lyogavin/airllm?style=social) | Free |
 
 ### Writing
 | Name | Description | Links | Fees |
