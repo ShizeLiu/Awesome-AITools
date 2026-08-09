@@ -3,6 +3,18 @@
 All notable changes to the Awesome AI Tools list will be documented in this file.
 
 ## August 2026
+- Added WorkBuddy to AI Agent section (CN)
+- Updated IMA description to mention supported models: DeepSeek-V4-Flash, GLM-5.2, and 混元 Hy3 (CN)
+- Updated 腾讯元宝 flagship model from 混元 T1 to 混元 Hy3 (CN)
+- Renamed NotebookLM to Gemini Notebook and updated URL (both EN/CN)
+- Removed CodeGeeX, Amazon CodeWhisperer, and 腾讯云AI代码助手 from AI Coding section
+- Renamed 通义灵码 to Qoder CN in AI Coding section and updated URL (CN)
+- Added current flagship model info to each AI Chatbot entry (both EN/CN)
+- Removed Chatbox, NextChat, MindMac, ChatGPT Sidebar, ChatGPT-Shortcut, chathub, openai-python, go-openai, and gemini-fullstack-langgraph-quickstart from GPT LLMs Applications section
+- Removed monica and AIPRM for ChatGPT from GPT LLMs Applications section (both EN/CN)
+- Rewrote AI Chatbot section descriptions to highlight each product's differentiation (both EN/CN)
+- Removed 大饼 AI 变声 from Voice Changing Software section (CN only)
+- Removed Grammarly from Writing section (both EN/CN)
 - Added speech-to-speech (huggingface/speech-to-speech) to Voice Processing section (both EN/CN)
 - Added Conductor (conductor-oss/conductor) to AI Agent section with documentation (both EN/CN)
 - Added Buzz (block/buzz) to AI Agent section with documentation (both EN/CN)
