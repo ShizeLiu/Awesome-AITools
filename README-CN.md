@@ -280,7 +280,7 @@
 ### AI图像创作与UI设计
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
-| ChatGPT Images 2.0 |OpenAI最新的图像生成模型 GPT Image 2.0。先进的AI图像生成和编辑能力。|[URL](https://chatgpt.com/images)|免费/付费|
+| ChatGPT Images 2.0 |🌟 OpenAI最新的图像生成模型 GPT Image 2.0。先进的AI图像生成和编辑能力。|[URL](https://chatgpt.com/images)|免费/付费|
 | 豆包 | 字节跳动旗下的AI图像创作助手，支持文生图、图生图等多种功能 |[URL](https://www.doubao.com/) |免费/付费|
 | Nano Banana/Nano Banana Pro|谷歌用于图像生成与编辑的先进人工智能模型。在LMArena文本转图像和图像编辑排行榜中位列榜首。<br> [Nano Banana 的用法合集](https://github.com/ikaijua/Awesome-AITools/wiki/Nano-Banana-%E7%9A%84%E7%94%A8%E6%B3%95%E5%90%88%E9%9B%86) <br>在线网站：<br> 1. [aistudio](https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview) <br> 2. [gemini](https://gemini.google.com/app) <br> 3. [lmarea.ai](https://lmarena.ai/?mode=direct&chat-modality=image)|[URL](https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview) |免费/付费|
 | Grok Image | xAI 的图像生成模型（Aurora），集成在 Grok 和 X 中，以写实风格和 meme 图像见长。 | [URL](https://grok.com/imagine) | 免费/付费 |
@@ -306,6 +306,7 @@
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
 | Seedance | 🌟 字节跳动的视频生成模型系列。当前 Seedance 2.5 驱动了即梦 / 小云雀等产品，支持 30 秒单次生成、最高 4K 输出、最多 50 个多模态参考输入、文生视频、图生视频、首尾帧条件控制与局部编辑，并通过火山引擎对开发者开放。[介绍](docs/seedance/README-CN.md) / [Skills](docs/seedance/README-CN.md#agent-skills) | [URL](https://dreamina.capcut.com/) | 免费/付费 |
+| MiniMax H3 | 🌱 MiniMax 开源的通用多模态生成系统，支持文生视频、图生视频、首尾帧生视频、文生音视频等，可通过 SGLang、vLLM、diffusers、ComfyUI 本地部署。[介绍](docs/minimax-h3/README-CN.md) | [GitHub](https://github.com/MiniMax-AI/MiniMax-H3) ![GitHub Repo stars](https://img.shields.io/github/stars/MiniMax-AI/MiniMax-H3?style=social), [HuggingFace](https://huggingface.co/MiniMaxAI/MiniMax-H3) | 免费 |
 | 小云雀 |小云雀app是由字节跳动旗下剪映推出的AI视频和图片创作助手,支持AI智能成片、数字人视频、AI设计、AI换背景等多种功能，可以免费试用 Seedance 2.5, [Seedance 2.5专题](https://github.com/ikaijua/Awesome-AITools/discussions/266) |[URL](https://xyq.jianying.com/) |试用积分/付费|
 | 豆包 | 字节跳动旗下的AI视频创作助手，支持文生视频、图生视频、数字人视频等多种功能 |[URL](https://www.doubao.com/) |免费/付费|
 | 即梦AI|字节跳动旗下的文生图、AI视频生成和AI图片编辑应用|[URL](https://jimeng.jianying.com/ai-tool/home)|免费/付费|

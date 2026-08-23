@@ -279,7 +279,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 ### AI Image Creation and UI Design
 | Name | Description | Links | Fees |
 | --- | --- | --- | --- |
-| ChatGPT Images 2.0 |OpenAI's latest image generation model GPT Image 2.0. Advanced AI image generation and editing capabilities.|[URL](https://chatgpt.com/images)|Free/Paid|
+| ChatGPT Images 2.0 |🌟 OpenAI's latest image generation model GPT Image 2.0. Advanced AI image generation and editing capabilities.|[URL](https://chatgpt.com/images)|Free/Paid|
 | Nano Banana 2|Google's advanced AI model for image generation and editing. No. 1 in the LMArena Text to Image and Image Edit leadboard. Online website: <br> 1. [gemini](https://gemini.google.com/app)<br> 2.[aistudio](https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview)   <br> 3. [lmarea.ai](https://lmarena.ai/?mode=direct&chat-modality=image)|[URL](https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview)|Free/Paid|
 | Grok Image | xAI's image generation model (Aurora), integrated in Grok and X. Known for photorealistic and meme-style image creation. | [URL](https://grok.com/imagine) | Free/Paid |
 | Stitch | Google Labs' AI-powered UI design tool for "vibe design." Generate high-fidelity multi-screen prototypes, design systems, and frontend code from text prompts, sketches, or voice; export to Figma or Google AI Studio, with MCP server and SDK for coding agents. [Intro](docs/stitch/README.md) | [URL](https://stitch.withgoogle.com/) | Free |
@@ -303,6 +303,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | Name | Description | Links | Fees |
 | --- | --- | --- | --- |
 | Seedance | 🌟 ByteDance's video generation model family. Current generation Seedance 2.5 powers Dreamina, supporting up to 30-second single-pass generation, native 4K output, up to 50 multimodal references, text-to-video, image-to-video, start-end frame conditioning, and region-level editing. Available to developers via Volcengine. [Intro](docs/seedance/README.md) / [Skills](docs/seedance/README.md#agent-skills) | [URL](https://dreamina.capcut.com/) | Free/Paid |
+| MiniMax H3 | 🌱 Open-source omni-modal generative system by MiniMax for video and audio generation. Supports text-to-video, image-to-video, first/last-frame-to-video, text-to-audio-video, and local deployment via SGLang, vLLM, diffusers, and ComfyUI. [Intro](docs/minimax-h3/README.md) | [GitHub](https://github.com/MiniMax-AI/MiniMax-H3) ![GitHub Repo stars](https://img.shields.io/github/stars/MiniMax-AI/MiniMax-H3?style=social), [HuggingFace](https://huggingface.co/MiniMaxAI/MiniMax-H3) | Free |
 | Dreamina|AI image and video creation tool by ByteDance/CapCut. Powered by Seedance 2.5 model. Supports text-to-image, text-to-video, image-to-video with up to 4K ultra-clear output|[URL](https://dreamina.capcut.com/)|Free/Paid|
 | Wan2.6 |AI Video Creation Tool by Alibaba  | [URL](https://create.wan.video/) | Paid/Free trial |
 | KLING AI|AI Video Creation Tool by kuaishou. Support text to video, image to video, start-end frame and motion control |[URL](https://klingai.com/)|Free/Paid|
