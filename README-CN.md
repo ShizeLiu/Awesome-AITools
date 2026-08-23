@@ -102,10 +102,10 @@
 ### ChatGPT及类似大语言模型AI助手
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
-| Claude | 🌟 Anthropic 研发的 AI 助手，当前最强模型：**Claude Opus 5**。**核心差异：** Cowork 模式把 AI 从“聊天机器人”变成可拉取数据、生成 Excel 预测模型并执行工作流的代理；在编程、长上下文、安全性和企业场景上最强。 | [URL](https://claude.ai/) | 免费/付费 |
 | ChatGPT | 🌟 OpenAI 的 AI 助手，当前最强模型：**GPT-5.6 Sol**。**核心差异：** 持久记忆和用户画像 —— 跨会话记住你的偏好，续聊最自然；通用能力最均衡，适合日常、编程和创意写作。 | [URL](https://chatgpt.com) | 免费/付费 |
 | 豆包 | 🌟 字节跳动的 AI 助手，当前最强模型：**Doubao-Seed-2.1 Pro**。**核心差异：** 字节生态入口 + 多模态交互 —— 集成搜索、语音、音乐等能力，界面直观，适合日常通用问答。 | [URL](https://www.doubao.com/) | 免费 |
-| Gemini | Google 的 AI 助手，当前最强模型：**Gemini 3.6 Flash**。**核心差异：** 原生多模态 + Deep Research —— 图像理解/生成和网络深度研究最强；与 Google Drive、Workspace 无缝集成。 | [URL](https://gemini.google.com/) | 免费/付费 |
+| Gemini | 🌟 Google 的 AI 助手，当前最强模型：**Gemini 3.6 Flash**。**核心差异：** 原生多模态 + Deep Research —— 图像理解/生成和网络深度研究最强；与 Google Drive、Workspace 无缝集成。 | [URL](https://gemini.google.com/) | 免费/付费 |
+| Claude | 🌟 Anthropic 研发的 AI 助手，当前最强模型：**Claude Opus 5**。**核心差异：** Cowork 模式把 AI 从“聊天机器人”变成可拉取数据、生成 Excel 预测模型并执行工作流的代理；在编程、长上下文、安全性和企业场景上最强。 | [URL](https://claude.ai/) | 免费/付费 |
 | 通义千问 | 阿里云的 AI 助手，当前最强模型：**Qwen3.8-Max**。**核心差异：** 开源权重 2.4T MoE + 长链路 Agent 推理 —— 支持 100 万超长上下文、原生多模态和深度研究。 | [URL](https://chat.qwen.ai/) | 免费 |
 | 腾讯元宝 | 腾讯的 AI 助手，当前最强模型：**混元 Hy3**。**核心差异：** 混元 + DeepSeek 双模型 —— 可切换腾讯自研混元 Hy3 和 DeepSeek R1；依托腾讯生态，适合中文搜索和内容创作。 | 1. [腾讯元宝智能助手](https://hunyuan.tencent.com/bot)<br>2. [混元 AI Studio](https://hunyuan.tencent.com/) | 免费 |
 | DeepSeek | DeepSeek 的 AI 助手，当前最强模型：**DeepSeek-V4-Pro**（含 V4-Pro-Max 推理模式）。**核心差异：** 推理性价比 —— Pro-Max 是当前开源模型中编码与智能体能力最强；V4-Pro 提供 1M 上下文与原生多模态，API 价格极低。 | [URL](https://chat.deepseek.com/) | 免费/付费 |
@@ -133,7 +133,7 @@
 ### 大语言模型排行榜
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
-|LMSYS Chatbot Arena Leaderboard|LMSYS Chatbot Arena 是一个用于大语言模型评估的众包开放平台。收集了超过 1,000,000 次人类成对比较，用 Bradley-Terry 模型对 LLM 进行排名，并以 Elo 标度显示模型评级。<br>B站视频：[量子位/1v1单挑90万轮之后，最强大模型是……](https://www.bilibili.com/video/BV1Qs421w7df/) |[URL](https://lmarena.ai/leaderboard) |免费|
+|LMSYS Chatbot Arena Leaderboard|🌟 LMSYS Chatbot Arena 是一个用于大语言模型评估的众包开放平台。收集了超过 1,000,000 次人类成对比较，用 Bradley-Terry 模型对 LLM 进行排名，并以 Elo 标度显示模型评级。<br>B站视频：[量子位/1v1单挑90万轮之后，最强大模型是……](https://www.bilibili.com/video/BV1Qs421w7df/) |[URL](https://lmarena.ai/leaderboard) |免费|
 |Artificial Analysis|Artificial Analysis 是一个提供 AI 模型和服务商比较及基准测试的资源平台，帮助用户在选择 AI 模型和服务提供商时做出明智决策。平台提供多种流行 AI 模型的比较数据，包括 OpenAI 的 GPT-4、Meta 的 Llama 3 和 Anthropic 的 Claude 系列，涵盖了响应速度、延迟和成本等性能指标。|[URL](https://artificialanalysis.ai/)|免费|
 |LiveCodeBench|LiveCodeBench 是一个全面且无污染的 LLM 代码评估基准，它会持续收集新的问题。LiveCodeBench 尤其关注更广泛的代码相关功能，例如自我修复、代码执行和测试输出预测，而不仅仅是代码生成。 |[URL](https://livecodebench.github.io/leaderboard.html)|免费|
 |StructEval|StructEval 是发表于 TMLR 2025 的评测基准与公开排行榜，用于评估 LLM 的结构化输出生成和转换，包含 2,035 个样例和 18 种文本及可渲染格式，并采用格式专用的结构与视觉检查。|[排行榜](https://tiger-ai-lab.github.io/StructEval/) [论文](https://openreview.net/forum?id=buDwV7LUA7) [Github](https://github.com/TIGER-AI-Lab/StructEval)|免费|
@@ -145,6 +145,7 @@
 | Claude Code | 🌟 Anthropic 推出的 AI 编程智能体。支持终端 CLI、VS Code/Cursor/JetBrains IDE 插件、桌面 App 和 Web，基于 Claude 系列模型，具备长上下文代码理解、跨文件编辑、shell 命令执行、MCP 扩展、Skills/Hooks/子代理、CLAUDE.md 项目规则与自动记忆能力；支持 Remote Control，可从手机或浏览器继续本地会话。[入门介绍](docs/claude-code/README-CN.md) [对比](docs/COMPARISON-CN.md) |[URL](https://docs.anthropic.com/en/docs/claude-code/quickstart) [Github](https://github.com/anthropics/claude-code)<br> ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-code?style=social)|免费|
 | Codex | 🌟 OpenAI 推出的开源（Apache-2.0）终端编程智能体，使用 Rust 编写。支持终端 CLI、VS Code/Cursor/Windsurf 等 IDE 扩展、Codex App/桌面体验及 Codex Web 云端任务；可直接理解并修改代码，内置内核级沙箱、MCP、Skills/Plugins/Hooks、子代理，通过 ChatGPT relay 在手机/桌面/Web 之间同步活跃会话，并支持 Remote SSH 连接远程环境。[入门介绍](docs/codex/README-CN.md) [对比](docs/COMPARISON-CN.md) |[Github](https://github.com/openai/codex) ![GitHub Repo stars](https://img.shields.io/github/stars/openai/codex?style=social)|免费|
 | Kimi Code | 🌟 月之暗面（Moonshot AI）推出的 AI 编程智能体 CLI，在终端中运行。可读取和编辑代码、执行 shell 命令、搜索文件、抓取网页，并根据反馈规划下一步。支持视频输入、AI 原生 MCP 配置、子代理、生命周期钩子以及 ACP 编辑器集成（Zed、JetBrains）。[入门介绍](docs/kimi-code/README-CN.md) [对比](docs/COMPARISON-CN.md) | [Github](https://github.com/MoonshotAI/kimi-code) ![GitHub Repo stars](https://img.shields.io/github/stars/MoonshotAI/kimi-code?style=social) | 免费 |
+| Manus | 🌱 Manus 是一款行动引擎，它不仅提供答案，还能执行任务、自动化工作流程并扩展您的服务范围 | [URL](https://manus.im/) | 免费试用/付费 |
 | DeepSeek Harness | 🌱 DeepSeek 于 2026 年 8 月 13 日开源（MIT）的 agent harness（智能体运行时）。提供 CLI 与本地 Web UI（默认 127.0.0.1:3080），采用基于 Cordis 的“一切皆插件”架构，内置 40+ 一方子包（LLM、MCP、LSP、ACP、沙箱、Skills、子代理、会话、工具、计划、调度、Web、Shell 等），并提供中英双语的架构文档。当前为开发者预览版，预计会有不兼容更新。[入门介绍](docs/deepseek-harness/README-CN.md) | [Github](https://github.com/deepseek-ai/deepseek-harness) ![GitHub Repo stars](https://img.shields.io/github/stars/deepseek-ai/deepseek-harness?style=social) | 免费 |
 | Trae | 🌱 字节跳动推出的 AI 编程与工作智能体产品族。包含 Trae Code（终端 CLI Agent）、Trae IDE（含 IDE Mode 与 SOLO Mode）、Trae Work（Web/桌面/移动工作空间，支持 Code Mode 与 Work Mode 及云端任务）。覆盖从终端到 IDE 再到云端工作区的完整链路，支持自定义 Agent、MCP、规则与多模型。[入门介绍](docs/trae/README-CN.md) | [URL](https://www.trae.ai/) [Github](https://github.com/bytedance/trae-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/trae-agent?style=social) | 免费/付费 |
 | Pi | earendil-works 开源（MIT）的自扩展 AI 编程智能体。采用 Monorepo 架构，包含 `pi-coding-agent`（交互式 CLI）、`pi-agent-core`（工具调用与状态管理）、`pi-ai`（统一多厂商 LLM API）、`pi-tui` 与遥测模块。内置插件化架构、供应链安全加固（精确锁定依赖、shrinkwrap、审计）以及沙箱方案（Gondolin、Docker、OpenShell）。[入门介绍](docs/pi/README-CN.md) | [Github](https://github.com/earendil-works/pi) ![GitHub Repo stars](https://img.shields.io/github/stars/earendil-works/pi?style=social) | 免费 |
@@ -183,7 +184,6 @@
 | FlowGram.AI | 字节跳动开源的可扩展可视化 AI 工作流开发框架，内置画布、表单引擎、变量作用链和现成物料（LLM、Condition、代码编辑器等），帮助开发者更快构建 AI 工作流平台。 | [Github](https://github.com/bytedance/flowgram.ai) ![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/flowgram.ai?style=social) | 免费 |
 | Conductor | 源自 Netflix 的开源 durable workflow engine，现聚焦 AI Agent 编排。提供事件驱动执行、持久化状态、重试/超时、14+ LLM 提供商、MCP 工具调用、function calling、人工审批以及面向 RAG 的向量数据库集成。在 Netflix、Tesla、LinkedIn、J.P. Morgan 生产环境使用。[入门介绍](docs/conductor/README-CN.md) | [Github](https://github.com/conductor-oss/conductor) ![GitHub Repo stars](https://img.shields.io/github/stars/conductor-oss/conductor?style=social) | 免费 |
 | DeepTutor | 香港大学数据科学研究院（HKUDS）开源的 AI 原生学习/辅导工作区，整合 AI 辅导、解题、测验生成、研究、可视化和掌握式学习路径。支持多引擎 RAG、持久化记忆、Partner/智能体、以及 Claude Code/Codex 等编程 CLI 实时接入。[入门介绍](docs/deeptutor/README-CN.md) | [Github](https://github.com/HKUDS/DeepTutor) ![GitHub Repo stars](https://img.shields.io/github/stars/HKUDS/DeepTutor?style=social) | 免费 |
-|Manus | Manus 是一款行动引擎，它不仅提供答案，还能执行任务、自动化工作流程并扩展您的服务范围 | [URL](https://manus.im/) | 免费试用/付费 |
 | MiniMax Agent|Minimax的 Agent 助手|[URL](https://agent.minimaxi.com/)|免费/付费|
 |agentscope|面向Agent的编程：构建大型语言模型应用程序。阿里开源|[Github](https://github.com/agentscope-ai/agentscope)![GitHub Repo stars](https://img.shields.io/github/stars/agentscope-ai/agentscope?style=social)|免费|
 |Auto-GPT|开源项目，使用gpt自主地实现你设定的任何目标。演示示例：[爆火的自主人工智能AutoGPT，程序员表示开始真正有点担忧会失业了！](https://www.bilibili.com/video/BV1Ph4y1W7Yj)|[GitHub](https://github.com/Significant-Gravitas/Auto-GPT) ![GitHub Repo stars](https://img.shields.io/github/stars/Significant-Gravitas/Auto-GPT?style=social)|免费，需要OpenAI API key|
@@ -282,7 +282,7 @@
 | --- | --- | --- | --- |
 | ChatGPT Images 2.0 |🌟 OpenAI最新的图像生成模型 GPT Image 2.0。先进的AI图像生成和编辑能力。|[URL](https://chatgpt.com/images)|免费/付费|
 | 豆包 | 字节跳动旗下的AI图像创作助手，支持文生图、图生图等多种功能 |[URL](https://www.doubao.com/) |免费/付费|
-| Nano Banana/Nano Banana Pro|谷歌用于图像生成与编辑的先进人工智能模型。在LMArena文本转图像和图像编辑排行榜中位列榜首。<br> [Nano Banana 的用法合集](https://github.com/ikaijua/Awesome-AITools/wiki/Nano-Banana-%E7%9A%84%E7%94%A8%E6%B3%95%E5%90%88%E9%9B%86) <br>在线网站：<br> 1. [aistudio](https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview) <br> 2. [gemini](https://gemini.google.com/app) <br> 3. [lmarea.ai](https://lmarena.ai/?mode=direct&chat-modality=image)|[URL](https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview) |免费/付费|
+| Nano Banana/Nano Banana Pro|🌟 谷歌用于图像生成与编辑的先进人工智能模型。在LMArena文本转图像和图像编辑排行榜中位列榜首。<br> [Nano Banana 的用法合集](https://github.com/ikaijua/Awesome-AITools/wiki/Nano-Banana-%E7%9A%84%E7%94%A8%E6%B3%95%E5%90%88%E9%9B%86) <br>在线网站：<br> 1. [aistudio](https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview) <br> 2. [gemini](https://gemini.google.com/app) <br> 3. [lmarea.ai](https://lmarena.ai/?mode=direct&chat-modality=image)|[URL](https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview) |免费/付费|
 | Grok Image | xAI 的图像生成模型（Aurora），集成在 Grok 和 X 中，以写实风格和 meme 图像见长。 | [URL](https://grok.com/imagine) | 免费/付费 |
 | Stitch | Google Labs 推出的 AI 驱动 UI 设计工具，主打“氛围设计（vibe design）”。支持通过文字提示、草图或语音生成高保真多屏原型、设计系统和前端代码，可导出到 Figma 或 Google AI Studio，并提供 MCP Server 与 SDK 供编码代理调用。[入门介绍](docs/stitch/README-CN.md) | [官网](https://stitch.withgoogle.com/) | 免费 |
 |Z-Image|Z-Image是阿里巴巴通义实验室（Tongyi Lab）于近期开源的一款高性能图像生成模型。它主打“极速”与“高质量”的平衡，非常适合需要快速出图的场景。Z-Image-Turbo在线demo: https://huggingface.co/spaces/mrfakename/Z-Image-Turbo|[Github](https://github.com/Tongyi-MAI/Z-Image) ![GitHub Repo stars](https://img.shields.io/github/stars/Tongyi-MAI/Z-Image?style=social)|免费|
