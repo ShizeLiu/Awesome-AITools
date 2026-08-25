@@ -3,6 +3,13 @@
 All notable changes to the Awesome AI Tools list will be documented in this file.
 
 ## August 2026
+- Updated IndexTTS entry to IndexTTS-2.5 with 5-language support, emotion/speed/pronunciation control, and vLLM deployment notes (both EN/CN)
+- Updated Gemini flagship from Gemini 3.6 Flash to Gemini 3.7 Flash across AI Chatbot, Google AI Studio, and Antigravity entries/docs (both EN/CN)
+- Updated GLM flagship from GLM-5.2 to GLM-5.3 across AI Chatbot and IMA entries (both EN/CN where applicable)
+- Removed 腾讯混元AI视频 from Video Creation section (CN only)
+- Removed MOKI (https://www.moki.cn) from Video Creation section (CN only)
+- Removed NoteGPT from General LLM Applications section (both EN/CN)
+- Removed gpt_academic from Academic research section (CN only)
 - Updated Llama 3 to Llama 4, Phi-3 to Phi-4, Runway description to Gen-4/Gen-4.5, and Llama 3 reference in Artificial Analysis entry; preserved DeepSeek-V3 entry and its reference in AirLLM (both EN/CN)
 - Updated Wan entry from Wan2.6 to Wan 3.0 in Video Creation section, reflecting all-in-one reference video generation, up to 30-second output, and multimodal document/web inputs (both EN/CN)
 - Added MiniMax H3 to Video Creation section with documentation in `docs/minimax-h3/` (both EN/CN)
