@@ -25,33 +25,16 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 
 <details open>
 <summary>Click to collapse</summary>
-
 <table align="center" cellpadding="10" style="width:100%; border-collapse:collapse;">
-  <tr align="center">
-    <td width="500" valign="middle" align="center">
-      <sub>
-        <a href="https://doloffer.com/" target="_blank">
-          <img alt="Visit DOLOFFER website" src="https://github.com/user-attachments/assets/94c3e24b-c0ce-4b07-8a80-76c21856f74c" />
-        </a>
-        <br><br>
-         【<b>"Doloffer"</b>--One-stop digital subscription and top-up platform
-        , We specialize in offering genuine subscriptions to various AI-powered digital services, including GPT and Claude. Get a 10% discount with code AI8888. Fast shipping and worry-free after-sales service.】
-        <br><br>
-        <a href="https://doloffer.com/" target="_blank">
-          <img src="https://img.shields.io/badge/Visit%20Site-blue?style=flat-square" alt="Visit DOLOFFER website">
-        </a>
-      </sub>
-    </td>
-  </tr>
   <tr align="center">
     <td width="500" valign="middle" align="center">
       <sub>
         <a href="https://www.xuanshuapi.com/" target="_blank">
           <img alt="Xuanshu API" src="assets/sponsors/xuanshuapi-en.jpg" />
         </a>
-        <br><br>
+        <br>
         【<b>Xuanshu API</b> is a next-generation AI model routing gateway for enterprises, technical teams, and individual developers. It provides one-stop API access to world-class top models (Claude, GPT, Grok, etc.) with enterprise-grade stability. Recharge and enjoy 20% off, models starting from 20% of the original price, $5 free upon registration, invoice support for enterprises. Click <a href="https://www.xuanshuapi.com/register?aff=AWESOME-AI-TOOLS&promo=AWESOME-AI-TOOLS" target="_blank">this link</a> to register and get an extra $5 credit.】
-        <br><br>
+        <br>
         <a href="https://www.xuanshuapi.com/" target="_blank">
           <img src="https://img.shields.io/badge/Visit%20Site-blue?style=flat-square" alt="Visit Xuanshu API website">
         </a>
@@ -59,9 +42,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
     </td>
   </tr>
 </table>
-
 </details>
-
 
 ## All Categories
 - [All Categories](#all-categories)
@@ -142,7 +123,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | Name | Description | Links | Fees |
 | --- | --- | --- | --- |
 | Claude Code | 🌟 Anthropic's AI coding agent. Available in the terminal CLI, VS Code/Cursor/JetBrains IDE plugins, desktop app, and web. Built on the Claude model family, it offers long-context codebase understanding, multi-file editing, shell command execution, MCP extensions, skills/hooks/subagents, CLAUDE.md project rules, and automatic memory. Supports Remote Control to continue local sessions from your phone or browser. [Intro](docs/claude-code/README.md) [Comparison](docs/COMPARISON.md) |[Github](https://github.com/anthropics/claude-code)<br> ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-code?style=social)|Free|
-| Codex | 🌟 OpenAI's open-source (Apache-2.0) terminal coding agent, written in Rust. Supports the terminal CLI, VS Code/Cursor/Windsurf IDE extensions, Codex App/desktop app, and Codex Web cloud tasks. It can understand and modify code directly, with kernel-level sandboxing, MCP, skills/plugins/hooks, subagents, and Remote SSH. Active sessions sync across phone/desktop/web via the ChatGPT relay. [Intro](docs/codex/README.md) [Comparison](docs/COMPARISON.md) |[Github](https://github.com/openai/codex) ![GitHub Repo stars](https://img.shields.io/github/stars/openai/codex?style=social)|Free|
+| Codex | 🌟 OpenAI's open-source (Apache-2.0) terminal coding agent, written in Rust. Supports the terminal CLI, VS Code/Cursor/Windsurf IDE extensions, Codex App/desktop app, and Codex Web cloud tasks. It can understand and modify code directly, with kernel-level sandboxing, MCP, skills/plugins/hooks, subagents, and Remote SSH. Active sessions sync across phone/desktop/web via the ChatGPT relay. [Intro](https://github.com/ikaijua/Awesome-AITools/discussions/948) [Comparison](docs/COMPARISON.md) |[Github](https://github.com/openai/codex) ![GitHub Repo stars](https://img.shields.io/github/stars/openai/codex?style=social)|Free|
 | Kimi Code | 🌟 Moonshot AI's AI coding agent CLI that runs in your terminal. Reads and edits code, runs shell commands, searches files, fetches web pages, and plans next steps based on feedback. Supports video input, AI-native MCP configuration, subagents, lifecycle hooks, and ACP editor integration (Zed, JetBrains). [Intro](docs/kimi-code/README.md) [Comparison](docs/COMPARISON.md) | [Github](https://github.com/MoonshotAI/kimi-code) ![GitHub Repo stars](https://img.shields.io/github/stars/MoonshotAI/kimi-code?style=social) | Free |
 | Manus | 🌱 An action engine that goes beyond answering questions to executing tasks, automating workflows, and extending your service capabilities. [Intro](docs/manus/README.md) | [URL](https://manus.im/) | Free Trial/Paid |
 | DeepSeek Harness | 🌱 DeepSeek's open-source (MIT) agent harness released on August 13, 2026. A full agent runtime (CLI + Web UI at 127.0.0.1:3080) with an "everything is a plugin" architecture powered by Cordis. Ships 40+ first-party packages (LLM, MCP, LSP, ACP, sandbox, skills, subagents, sessions, tools, plans, scheduling, web, shell, etc.) and bilingual EN/ZH architecture docs. Currently developer preview — breaking changes expected. [Intro](docs/deepseek-harness/README.md) | [Github](https://github.com/deepseek-ai/deepseek-harness) ![GitHub Repo stars](https://img.shields.io/github/stars/deepseek-ai/deepseek-harness?style=social) | Free |
