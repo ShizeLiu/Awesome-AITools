@@ -76,8 +76,8 @@
 | --- | --- | --- | --- |
 | ChatGPT | 🌟 OpenAI 的 AI 助手，当前最强模型：**GPT-6 Astra**；DevDay 发布的 **GPT-6.1 Sol** 与 **GPT-6 Luna** 将 API 价格下调约 50%（Sol $2/$10、Luna 输入 $0.10 起每百万 token），消费端额度内免费用。**核心差异：** 持久记忆和用户画像 —— 跨会话记住偏好、续聊最自然；通用能力最均衡，适合日常、编程和创意写作。<br>1.[更多介绍](https://github.com/ikaijua/Awesome-AITools/discussions/1079)<br>2.[开通ChatGPT订阅经验](https://github.com/ikaijua/Awesome-AITools/discussions/1025) | 1. [URL](https://chatgpt.com)<br>2. [API](https://platform.openai.com/) | 免费/付费 |
 | 豆包 | 🌟 字节跳动的 AI 助手，当前旗舰：**Doubao-Seed-2.1 Pro**（Pro 最新快照 260915）；滚动迭代的最强版本为 **Doubao-Seed-Evolving**（用户无感迁移）。**核心差异：** 字节生态入口 + 多模态交互 —— 集成搜索、语音、音乐等能力；<br>2026-08 推出办公 Agent「豆包工作」：虚拟桌面操作电脑、飞书上下文打通、200+ 技能与连接器、多 Agents 并行协作。**在桌面端下载并登录豆包工作，即可免费领取 30 天订阅权益。**[更多介绍](https://github.com/ikaijua/Awesome-AITools/discussions/944) | 1. [URL](https://www.doubao.com/)<br>2. [API](https://www.volcengine.com/product/ark) | 免费 |
-| Gemini | 🌟 Google 的 AI 助手，当前主力模型：**Gemini 3.8 Flash**（另有面向网络安全的 3.8 Flash Cyber 变体）；**Gemini 4 Argon**（100 万 token 输出上限）官方称在部分基准上超过 GPT-6 Astra 与 Claude Opus 5.5，目前仅通过 Fairwind 计划受控开放。<br>**核心差异：** 原生多模态 + Deep Research；与 Google Drive、Workspace 无缝集成。还包含 **Gemini Spark**——常驻后台的个人智能体，可跨 Gmail、Calendar、Tasks 协调工作（付费订阅可用）。<br>[更多介绍](https://github.com/ikaijua/Awesome-AITools/discussions/1108) | 1. [URL](https://gemini.google.com/)<br>2. [API](https://aistudio.google.com/) | 免费/付费 |
 | Claude | 🌟 Anthropic 研发的 AI 助手，当前最强模型：**Claude Fable 5.1**（公开版）/ **Mythos 5.1**（可信访问）；<br>9 月 22 日发布的 **Claude Opus 5.5**（5.5 家族首款）在大多数任务上媲美 Fable 5.1，成本低约 40%，**Sonnet 5.5** 于 9 月 28 日推出，Haiku 5.5 随后。**核心差异：** Cowork 模式把 AI 从“聊天机器人”变成可拉取数据、生成 Excel 预测模型并执行工作流的代理；在编程、长上下文、安全性和企业场景上最强。 [更多介绍](https://github.com/ikaijua/Awesome-AITools/discussions/1104) | 1. [URL](https://claude.ai/)<br>2. [API](https://console.anthropic.com/) | 免费/付费 |
+| Gemini | 🌟 Google 的 AI 助手，当前主力模型：**Gemini 3.8 Flash**（另有面向网络安全的 3.8 Flash Cyber 变体）；**Gemini 4 Argon**（100 万 token 输出上限）官方称在部分基准上超过 GPT-6 Astra 与 Claude Opus 5.5，目前仅通过 Fairwind 计划受控开放。<br>**核心差异：** 原生多模态 + Deep Research；与 Google Drive、Workspace 无缝集成。还包含 **Gemini Spark**——常驻后台的个人智能体，可跨 Gmail、Calendar、Tasks 协调工作（付费订阅可用）。<br>[更多介绍](https://github.com/ikaijua/Awesome-AITools/discussions/1108) | 1. [URL](https://gemini.google.com/)<br>2. [API](https://aistudio.google.com/) | 免费/付费 |
 | 通义千问 | 阿里云的 AI 助手，当前最强模型：**Qwen3.8-Max**（8 月 3 日 GA；Qwen3.8-27B 开源权重于 8 月 14 日发布）。**核心差异：** 开源权重 2.4T MoE + 长链路 Agent 推理 —— 支持 100 万超长上下文、原生多模态和深度研究。 | 1. [URL](https://chat.qwen.ai/)<br>2. [API](https://bailian.console.aliyun.com/) | 免费 |
 | 腾讯元宝 | 腾讯的 AI 助手，当前最强模型：**混元 Hy4 preview**（2026 年 8 月发布并开源，1M 上下文）。**核心差异：** 混元 + DeepSeek 双模型可切换；依托腾讯生态，适合中文搜索和内容创作。 | 1. [腾讯元宝智能助手](https://hunyuan.tencent.com/bot)<br>2. [混元 AI Studio](https://hunyuan.tencent.com/) | 免费 |
 | DeepSeek | DeepSeek 的 AI 助手，当前最强模型：**DeepSeek-V4.1-Flash**（2026 年 9 月 10 日发布；原生多模态——官方基准显示能力超越 V4-Pro 且价格更低）。**核心差异：** 推理性价比 —— 开源模型中最强的编码与智能体能力，API 价格极低。 | 1. [URL](https://chat.deepseek.com/)<br>2. [API](https://platform.deepseek.com/) | 免费/付费 |
@@ -108,11 +108,14 @@
 ### 大语言模型排行榜
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
-|LMArena (Chatbot Arena)|🌟 LMArena（原 LMSYS Chatbot Arena）是一个用于大语言模型评估的众包开放平台。收集了超过 1,000,000 次人类成对比较，用 Bradley-Terry 模型对 LLM 进行排名，并以 Elo 标度显示模型评级。<br>B站视频：[量子位/1v1单挑90万轮之后，最强大模型是……](https://www.bilibili.com/video/BV1Qs421w7df/) |[URL](https://lmarena.ai/leaderboard) |免费|
-| Artificial Analysis | Artificial Analysis 是一个提供 AI 模型和服务商比较及基准测试的资源平台，帮助用户在选择 AI 模型和服务提供商时做出明智决策。<br>平台提供多种流行 AI 模型的比较数据，包括 OpenAI 的 GPT-4、Meta 的 Llama 4 和 Anthropic 的 Claude 系列，涵盖了响应速度、延迟和成本等性能指标。 | [URL](https://artificialanalysis.ai/) | 免费 |
-|LiveCodeBench|LiveCodeBench 是一个全面且无污染的 LLM 代码评估基准，它会持续收集新的问题。LiveCodeBench 尤其关注更广泛的代码相关功能，例如自我修复、代码执行和测试输出预测，而不仅仅是代码生成。 |[URL](https://livecodebench.github.io/leaderboard.html)|免费|
-|StructEval|StructEval 是发表于 TMLR 2025 的评测基准与公开排行榜，用于评估 LLM 的结构化输出生成和转换，包含 2,035 个样例和 18 种文本及可渲染格式，并采用格式专用的结构与视觉检查。|[排行榜](https://tiger-ai-lab.github.io/StructEval/) [论文](https://openreview.net/forum?id=buDwV7LUA7) [GitHub](https://github.com/TIGER-AI-Lab/StructEval)|免费|
-|BenchGecko|AI模型基准测试排行榜，跨供应商定价对比，AI经济仪表盘。追踪数千个AI模型、128个评估基准、数百个供应商。提供免费API和开放数据集。|[URL](https://benchgecko.ai/zh/)|免费|
+|LMArena (Chatbot Arena)|🌟 LMArena（原 LMSYS Chatbot Arena）是一个用于大语言模型评估的众包开放平台，源自加州大学伯克利分校 SkyLab 的 LMSYS（与斯坦福、UCSD、CMU、MBZUAI 多校合作）。收集了超过 1,000,000 次人类成对比较，用 Bradley-Terry 模型对 LLM 进行排名，并以 Elo 标度显示模型评级。<br>B站视频：[量子位/1v1单挑90万轮之后，最强大模型是……](https://www.bilibili.com/video/BV1Qs421w7df/) |[URL](https://lmarena.ai/leaderboard) |免费|
+| Artificial Analysis | Artificial Analysis 是由 Micah Hill-Smith 与 George Cameron 创办的独立第三方平台，提供 AI 模型和服务商比较及基准测试，帮助用户在选择 AI 模型和服务提供商时做出明智决策。<br>平台提供多种流行 AI 模型的比较数据，包括 OpenAI 的 GPT-4、Meta 的 Llama 4 和 Anthropic 的 Claude 系列，涵盖了响应速度、延迟和成本等性能指标。 | [URL](https://artificialanalysis.ai/) | 免费 |
+|LiveCodeBench|LiveCodeBench 是一个全面且无污染的 LLM 代码评估基准，由 UC Berkeley、MIT、康奈尔联合推出，并持续收集新的问题。LiveCodeBench 尤其关注更广泛的代码相关功能，例如自我修复、代码执行和测试输出预测，而不仅仅是代码生成。 |[URL](https://livecodebench.github.io/leaderboard.html)|免费|
+|StructEval|StructEval 是由滑铁卢大学领衔的 TIGER-AI-Lab 发表于 TMLR 2025 的评测基准与公开排行榜，用于评估 LLM 的结构化输出生成和转换，包含 2,035 个样例和 18 种文本及可渲染格式，并采用格式专用的结构与视觉检查。|[排行榜](https://tiger-ai-lab.github.io/StructEval/) [论文](https://openreview.net/forum?id=buDwV7LUA7) [GitHub](https://github.com/TIGER-AI-Lab/StructEval)|免费|
+|LLM Stats|LLM Stats 是由 Jonathan Chavez 与 Sebastian Crossa 创办（Y Combinator 孵化）的独立综合性 LLM 排行榜，使用每日更新的开源社区数据，从能力、价格、速度和上下文长度等维度基准测试与对比 API 模型。|[URL](https://llm-stats.com/)|免费|
+| ModelCap | ModelCap 是独立平台，发布实时 AI 模型排名（ModelCap Index），仅聚合具名公开来源——SWE-bench、ARC-AGI、BFCL 等基准榜、Arena 评分与供应商价格——<br>每个模型附证据等级与分数区间，并提供分基准排行榜、模型头对头对比、供应商定价页与 CC BY 4.0 JSON/CSV 数据集。 | [URL](https://modelcap.ai/) | 免费 |
+|Price Per Token|由 Alex Ellman 开发的 LLM API 定价对比工具，覆盖 OpenAI、Anthropic、Google 等 200+ 模型，内置 token 计数、成本计算器与基准对比。|[URL](https://pricepertoken.com/)|免费|
+|BenchGecko|独立第三方 AI 模型基准测试排行榜，跨供应商定价对比，AI经济仪表盘。追踪数千个AI模型、128个评估基准、数百个供应商。提供免费API和开放数据集。|[URL](https://benchgecko.ai/zh/)|免费|
 
 ### AI Agent
 | 名称 | 说明 | 链接 | 费用 |
@@ -198,9 +201,9 @@
 | 名称 | 说明 | 链接 | 费用 |
 | --- | --- | --- | --- |
 | Coding Plan 价格对比 | 全球主流 Coding Plan 价格与用量对比（含国内厂商套餐表格，持续更新） | [更多介绍](https://github.com/ikaijua/Awesome-AITools/discussions/981) | 免费 |
-| Trae | 字节跳动推出的 AI 编程 IDE（对标 Cursor），主打 Agent 化编程，支持 AI 问答、代码补全与多步自主编程。 | [URL](http://trae.com.cn) | 免费 |
 | Cursor | 🌟 主流的 AI 编程智能体编辑器：支持 OpenAI、Anthropic、Gemini、Grok 及自研 Composer 等多模型切换，可在桌面端、CLI、Slack、GitHub 中并行运行多个 Agent；<br>2026 年 8 月起成为 SpaceX（SpaceXAI）全资子公司。 [更多介绍](https://github.com/ikaijua/Awesome-AITools/discussions/1106) | [URL](https://cursor.com) | 付费/免费试用 |
-| GitHub Copilot | GitHub 推出的代码编写助手，现已支持 OpenAI、Anthropic、Gemini 等厂商模型逐任务切换<br>[Github Copilot技巧和窍门](https://bilibili.com/video/BV1ic411T7Jd) | [URL](https://github.com/features/copilot) | 免费/付费 |
+| Trae | 字节跳动推出的 AI 编程 IDE（对标 Cursor），主打 Agent 化编程，支持 AI 问答、代码补全与多步自主编程。 | [URL](http://trae.com.cn) | 免费 |
+| GitHub Copilot | GitHub 推出的代码编写助手，现已支持 OpenAI、Anthropic、Gemini 等厂商模型逐任务切换 | [URL](https://github.com/features/copilot) | 免费/付费 |
 | Bolt.new | StackBlitz 推出的浏览器端 AI 全栈应用构建工具——用自然语言描述需求，AI 智能体直接在浏览器内脚手架、运行并部署完整应用。基于 WebContainers 在浏览器中运行真实 Node.js，无需本地环境或云虚拟机。免费档 / Pro $25 每月 / Teams $30 每人每月 / Enterprise 定制；开源姊妹版 bolt.diy 支持自带 API Key。 | [URL](https://bolt.new/) | 免费/付费 |
 | OpenCode | 开源的终端原生 AI 编码 agent。不绑定特定厂商（支持 Anthropic、OpenAI、Google 及本地模型），采用 TUI 客户端/服务端架构，集成 LSP，支持自定义 agent 和 MCP 服务器。 | [URL](https://opencode.ai) [GitHub](https://github.com/anomalyco/opencode) ![GitHub Repo stars](https://img.shields.io/github/stars/anomalyco/opencode?style=social) | 免费 |
 | OpenChamber | OpenCode AI agent 的桌面/网页图形界面。在 OpenCode 之上提供会话管理、diff 查看和工作区控制。 | [URL](https://openchamber.dev) [GitHub](https://github.com/openchamber/openchamber) ![GitHub Repo stars](https://img.shields.io/github/stars/openchamber/openchamber?style=social) | 免费 |
