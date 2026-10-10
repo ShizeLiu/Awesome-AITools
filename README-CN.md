@@ -117,6 +117,7 @@
 |Price Per Token|由 Alex Ellman 开发的 LLM API 定价对比工具，覆盖 OpenAI、Anthropic、Google 等 200+ 模型，内置 token 计数、成本计算器与基准对比。|[URL](https://pricepertoken.com/)|免费|
 |BenchGecko|独立第三方 AI 模型基准测试排行榜，跨供应商定价对比，AI经济仪表盘。追踪数千个AI模型、128个评估基准、数百个供应商。提供免费API和开放数据集。|[URL](https://benchgecko.ai/zh/)|免费|
 |llmrun|llmrun 是一个免费网站，可查看你的显卡、Mac 或迷你主机能跑哪些开源大模型：各量化所需显存与预估速度（tok/s），并提供基于公开基准（Epoch AI、LiveBench、SWE-bench、MMLU-Pro）、用 2PL IRT 拟合的综合评分，方法论公开。|[URL](https://llmrun.dev/)|免费|
+|The Aggregate|独立、免费的大模型排行榜：把公开基准测试排行榜整合为每日更新的统一排名，用稳健的 IRT 模型将所有模型放在同一 Elo 刻度上并给出标准误；每个分数都链接到原始榜单，可对任意两个模型做头对头对比，并提供无需密钥的免费 MCP 服务器。|[URL](https://theaggregate.ai/)|免费|
 
 ### AI Agent
 | 名称 | 说明 | 链接 | 费用 |
@@ -243,6 +244,7 @@
 | Gemini Notebook（原 NotebookLM）|Google 推出的 AI 研究助手，原 NotebookLM。可将文本、视频、音频、数据集等文件转化为播客节目（Audio Overview），并生成常见问题解答、学习指南、目录、时间轴和简报等，支持基于来源的自由对话与事实核查。|[URL](https://notebook.google.com/)|免费|
 | Learn about |谷歌开发的人工智能学习助手。它是一个会话式的学习伙伴，能适应您独特的好奇心和学习目标，帮助您掌握新主题并加深理解。|[URL](https://learning.google.com/experiments/learn-about)|免费|
 | Poe | Quora 推出的多模型 AI 聊天平台。可通过单一界面和积分制订阅使用 GPT、Claude、Gemini、Grok、Kimi、DeepSeek 等众多文本/图像/视频模型。支持自定义 Bot、群聊、多模型对比和 OpenAI 兼容 API。 | [URL](https://poe.com/) | 免费/付费 |
+| Perplexity | 主打「答案附可核验引用」的 AI 搜索引擎，自研旗舰模型 **Sonar 2**。2026 年已从搜索引擎扩展为研究型助手：内置 **Comet** AI 浏览器（地址栏即 Perplexity 搜索）、Deep Research 深度研究、Labs 项目空间、文件/应用生成，以及自动为每次提问挑选最合适模型的 Model Council。<br>**核心差异：** 多厂商模型聚合 —— 一份 Pro/Max 订阅内可选 OpenAI、Anthropic、Google、Moonshot、智谱、xAI、NVIDIA 等 8–10 个模型，且每条答案都附可核验的原文出处，是查证事实、快速调研陌生领域时的默认选择。 | 1. [URL](https://www.perplexity.ai/)<br>2. [API](https://docs.perplexity.ai/) | 免费/付费 |
 | HuggingChat|Hugging Face 的开源聊天应用程序 Hugging Chat。公共服务于 2025 年 7 月暂停，2025 年 10 月以 HuggingChat Omni（自动路由 115+ 开源模型）形式回归。 [URL](https://huggingface.co/chat/)|[GitHub](https://github.com/huggingface/chat-ui) ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/chat-ui?style=social)|免费|
 | ollama | 在本地轻松运行和管理 Llama、Qwen、DeepSeek、 Gemma 等大型语言模型。|[GitHub](https://github.com/ollama/ollama) ![GitHub Repo stars](https://img.shields.io/github/stars/ollama/ollama?style=social) |免费|
 |langchain|是一个强大的框架，旨在帮助开发人员使用语言模型构建端到端的应用程序。它提供了一套工具、组件和接口，可简化创建由大型语言模型 (LLM) 和聊天模型提供支持的应用程序的过程。LangChain 可以轻松管理与语言模型的交互，将多个组件链接在一起，并集成额外的资源，例如 API 和数据库。|[GitHub](https://github.com/langchain-ai/langchain) ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social)|免费|
