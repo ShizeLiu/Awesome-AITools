@@ -3,6 +3,10 @@
 All notable changes to the Awesome AI Tools list will be documented in this file.
 
 ## November 2026
+- Added Gemini Decisions API and clarified decision-model pricing, free allowances, and local compute costs
+- Updated Qwen to distinguish Qwen4-Max preview access from the open-weight model family
+- Updated Claude to the Fable 5.2 / Mythos 5.2 flagship (Nov 9, 2026)
+- Updated Gemini for Gemini 4 Carbon's general availability and #2 Artificial Analysis ranking (Nov 11, 2026)
 - Added AIHOT to AI News & Information (CN only)
 - Added Orchestrator to Agent Workspaces & Collaboration
 - Added Gemini Omni to Video Creation, plus EN/CN deep-dive discussions
